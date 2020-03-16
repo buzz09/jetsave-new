@@ -1,0 +1,59 @@
+.navbar {
+  display: none;
+  background-color: black;
+}
+.mobilecontainer {
+  display: none;
+}
+.mobileimageview {
+  display: none;
+}
+
+.navbar-toggler {
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-color: rgba(255, 0, 0, 0.1) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+  .webcontainer {
+    display: none;
+  }
+  .mobilecontainer {
+    display: block;
+  }
+  .svgimage {
+    width: 232% !important;
+    margin-top: 46px;
+  }
+  .loadersmrt {
+    display: none;
+  }
+  .mobileimageview {
+    display: block;
+  }
+  .leftmenufix {
+    display: none;
+  }
+  .itisvg {
+    display: none;
+  }
+  .categorywebimage {
+    display: none !important;
+  }
+  .navbar {
+    display: block;
+  }
+  #our-expertcarousesl {
+    display: none;
+  }
+  .choice-height,
+  #peoplechoicetours {
+    display: none;
+  }
+  .mobiletext {
+    font-size: 23px;
+  }
+}
