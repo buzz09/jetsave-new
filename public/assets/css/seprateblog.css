@@ -1,0 +1,100 @@
+.open {
+    fill: black;
+}
+
+.svglogo {
+    fill: black;
+}
+
+input[type=text],
+
+
+h2 {
+    font-family: cursive;
+}
+
+p {
+    font-size: 14px;
+}
+
+.image-blog {
+    width: 73px;
+    height: 71px;
+    margin-left: -19%;
+    margin-bottom: 10%;
+}
+
+.buttonabout {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.buttonabout:hover {
+    background: #06D85F;
+}
+
+.overlayabout {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlayabout:target {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.blogheading {
+  margin-top: 39%;
+  text-align: center;
+  background-color:#7e585899;
+  color: white;
+}
+
+.blogarea {
+  margin-top: 2%;
+}
+
+
+.sidebar {
+  color:  black;
+  height: 100%;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  padding: 2%;
+}
+
+.services, .moreblog {
+  margin-left: 22%;
+}
+
+.sidebar-right {
+  color: black;
+  height: 100%;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  padding: 2%;
+}

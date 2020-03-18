@@ -1,0 +1,72 @@
+.indiabackgroundimage {
+    background-image: url(http://i.ccdn.hu/acm/19/185850/l0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+}
+
+.indiabackgroundimage h1 {
+    position: absolute;
+/* background-color: #2b252599; */
+top: 30%;
+color: white;
+right: 5%;
+font-style: oblique;
+font-size: 22px;
+}
+
+.open {
+    fill: black;
+}
+
+.svglogo {
+    fill: black;
+}
+
+h2{
+  font-family: cursive;
+}
+.title{
+    /* margin: 2%; */
+/* margin: 4%; */
+font-size: 60%;
+padding: 4%;
+text-align: left;
+
+}
+.link:hover{
+    text-decoration: none;
+}
+.buttonabout {
+font-size: 1em;
+padding: 10px;
+color: #fff;
+border: 2px solid #06D85F;
+border-radius: 20px/50px;
+text-decoration: none;
+cursor: pointer;
+transition: all 0.3s ease-out;
+}
+.buttonabout:hover {
+background: #06D85F;
+}
+a, p{
+    text-decoration: none;
+    color: black;
+}
+.overlayabout {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+}
+.overlayabout:target {
+visibility: visible;
+opacity: 1;
+z-index: 9999;
+}

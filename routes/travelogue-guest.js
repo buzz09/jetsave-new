@@ -26,9 +26,12 @@ router.post("/all", (req, res) => {
     else if (result[0]) {
       req.session.id = result[0].id;
 
+      req.flash('success', 'Welcome To Jetsave');
       res.redirect("/my-profile");
     } else {
-      res.redirect("/my-profile");
+
+      req.flash('error', 'Account Not Found');
+      res.redirect("/login");
     }
   });
 });

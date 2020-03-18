@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Jetsave Destinations: Dreams Become Reality When You Travel</title>
     <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="/assets/js/hideshow.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/jetsavecss.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/loader.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/mobilenav.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/seprateblog.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/mobile.css">
+
     <link rel="stylesheet" type="text/css" media="(max-width: 600px)" href="/assets/css/jetsave-tablet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -21,124 +26,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
         integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 </head>
 <style>
-    .open {
-        fill: black;
-    }
-
-    .svglogo {
-        fill: black;
-    }
-
-    input[type=text],
-
-
-    h2 {
-        font-family: cursive;
-    }
-    p{
-        font-size: 14px;
-    }
-    .image-blog{
-        width: 73px;
-    height: 71px;
-    margin-left: -19%;
-    margin-bottom: 10%;
-    }
-    .buttonabout {
-        font-size: 1em;
-        padding: 10px;
-        color: #fff;
-        border: 2px solid #06D85F;
-        border-radius: 20px/50px;
-        text-decoration: none;
-        cursor: pointer;
-        transition: all 0.3s ease-out;
-    }
-
-    .buttonabout:hover {
-        background: #06D85F;
-    }
-
-    .overlayabout {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.7);
-        transition: opacity 500ms;
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    .overlayabout:target {
-        visibility: visible;
-        opacity: 1;
-        z-index: 9999;
-    }
-
-    .popup,
-    .eety {
-        margin: 70px auto;
-        padding: 20px;
-        background: #fff;
-        border-radius: 5px;
-        width: 50%;
-        height: 55%;
-        position: relative;
-
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    a:hover{
-        text-decoration: none;
-        color: black;
-    }
-
-    .popup h2 {
-        margin-top: -32%;
-        margin-left: 47%;
-        color: #333;
-        font-family: Tahoma, Arial, sans-serif;
-    }
-
-
-    #h2 {
-        margin-top: 2%;
-        margin-left: 47%;
-        color: #333;
-        font-family: Tahoma, Arial, sans-serif;
-    }
-
-    .popup .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        transition: all 200ms;
-        font-size: 30px;
-        font-weight: bold;
-        text-decoration: none;
-        color: #333;
-    }
-
-    .popup .close:hover {
-        color: #06D85F;
-    }
-
-    .popup .content {
-        max-height: 30%;
-        overflow: auto;
-    }
 
     .bannerimg {
-        background-image: url("https://reufix.com/wp-content/uploads/2018/10/Travel-insurance-1.jpg");
+        background-image: url("https://www.cysec-consultancy.nl/images/InfoSecV2.jpg");
         position: absolute;
         left: 0;
         right: 0;
@@ -149,283 +41,11 @@
         height: 100%;
         margin-top: -2%;
     }
-  
+
 </style>
 
 <body>
-    <script>
 
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-            document.getElementById(".open").style.width = "0%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
-
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll > 500) {
-                    $(".svglogo").css("fill", "black");
-                }
-
-                else {
-                    $(".svglogo").css("fill", "black");
-                }
-            })
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll > 100) {
-                    $(".open").css("fill", "black");
-                }
-
-                else {
-                    $(".open").css("fill", "black");
-                }
-            })
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $(".our-hover").hide();
-            $(".map-hover").hide();
-            $(".closebutn").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".embark").hide();
-            $(".main-nav1-item").hide();
-            $(".header-top-item").hide();
-            $(".open").click(function () {
-                $(".closebutn").show();
-                $(".open").hide();
-                $(".carousel-people").hide();
-                $(".carousel-indicators").hide();
-                $(".main-nav1-item").show();
-                $(".svglogo").css("fill", "white");
-                $(".header-top-item").show();
-                $("#carouselslider").hide();
-                // full website hide
-                $("#aboutjetsavedetails").hide();
-                $("#our-expertcarousesl").hide();
-                $("#travellerblogcarousel").hide();
-                $("#peoplechoicetours").hide();
-                $("#verifiedtravellercarousel").hide();
-                $(".trade").hide();
-                $(".footer").hide();
-                $(".bgfooter").hide();
-                $(".advanture").show();
-                $(".wrapper").hide();
-                $(".follow").hide();
-                $(".blog").hide();
-                $(".leftmenufix").hide();
-
-
-                // fullwebsite hide end
-            });
-        });
-
-        $(document).ready(function () {
-            $(".closebutn").hide();
-            $(".our-hover").hide();
-            $(".activity-hover").hide();
-            $(".embark").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".closebutn").click(function () {
-                $(".open").show();
-                $(".closebutn").hide();
-                $(".carousel-people").show();
-                //$(".carousel-indicators").show();
-                $(".main-nav1-item").hide();
-                $(".header-top-item").hide();
-                // full website show
-                $("#carouselslider").show();
-                $("#aboutjetsavedetails").show();
-                $("#our-expertcarousesl").show();
-                $("#travellerblogcarousel").show();
-                $("#peoplechoicetours").show();
-                $("#verifiedtravellercarousel").show();
-                $(".trade").show();
-                $(".footer").show();
-                $(".bgfooter").show();
-                $(".advanture").show();
-                $(".wrapper").show();
-                $(".follow").show();
-                $(".blog").show();
-                $(".our-hover").hide();
-                $(".activity-hover").hide();
-                $(".map-hover").hide();
-                $(".box").hide();
-                $(".embark").hide();
-                $(".get").hide();
-                $(".leftmenufix").show();
-
-                // fullwebsite show end
-            });
-        });
-
-
-        // our hover part
-        $(document).ready(function () {
-            $(".our-hover").hide();
-            $(".activity-hover").hide();
-            $(".map-hover").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".embark").hide();
-            $(".our").hover(function () {
-                $(".our-hover").show();
-                $(".activity-hover").hide();
-                $(".map-hover").hide();
-                $(".get").hide();
-                $(".box").hide();
-                $(".embark").hide();
-
-            });
-        });
-
-        // our hover part end
-
-        // activity hover part
-        $(document).ready(function () {
-            $(".activity-hover").hide();
-            $(".our-hover").hide();
-            $(".map-hover").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".embark").hide();
-            $(".activity").hover(function () {
-                $(".activity-hover").show();
-                $(".our-hover").hide();
-                $(".map-hover").hide();
-                $(".get").hide();
-                $(".box").hide();
-                $(".embark").hide();
-
-            });
-        });
-
-        // activity	 hover part end
-        // hover part start
-        $(document).ready(function () {
-            $(".activity-hover").hide();
-            $(".our-hover").hide();
-            $(".map-hover").hide();
-            $(".box").hide();
-            $(".get").hide();
-            $(".embark").hide();
-            $(".india-hover").hover(function () {
-                $(".map-hover").show();
-                $(".activity-hover").hide();
-                $(".our-hover").hide();
-                $(".get").hide();
-                $(".box").hide();
-                $(".embark").hide();
-
-            });
-        });
-        // hover part end
-
-        // now part start
-        $(document).ready(function () {
-            $(".activity-hover").hide();
-            $(".our-hover").hide();
-            $(".map-hover").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".embark").hide();
-            $(".inspire").hover(function () {
-                $(".get").show();
-                $(".activity-hover").hide();
-                $(".our-hover").hide();
-                $(".map-hover").hide();
-                $(".box").hide();
-                $(".embark").hide();
-            });
-        });
-        // now part end
-
-        // box part start
-        $(document).ready(function () {
-            $(".activity-hover").hide();
-            $(".our-hover").hide();
-            $(".map-hover").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".embark").hide();
-            $(".meeting").hover(function () {
-                $(".box").show();
-                $(".activity-hover").hide();
-                $(".our-hover").hide();
-                $(".map-hover").hide();
-                $(".get").hide();
-                $(".embark").hide();
-
-            });
-        });
-        // box part end
-
-
-        // about part start
-        $(document).ready(function () {
-            $(".activity-hover").hide();
-            $(".our-hover").hide();
-            $(".map-hover").hide();
-            $(".get").hide();
-            $(".box").hide();
-            $(".embark").hide();
-            $(".redplane").hover(function () {
-                $(".embark").show();
-                $(".activity-hover").hide();
-                $(".our-hover").hide();
-                $(".map-hover").hide();
-                $(".get").hide();
-                $(".box").hide();
-            });
-        });
-        // about part end
-
-        $(document).ready(function () {
-
-            $(".close").click(function () {
-                $(".model").hide();
-
-            });
-        });
-    </script>
-    <script>
-        function openNav1() {
-            document.getElementById("myNav1").style.height = "100%";
-        }
-
-        function closeNav1() {
-            document.getElementById("myNav1").style.height = "0%";
-        }
-    </script>
-
-    </scipt>
-
-    </script>
-    <script>
-
-        $(window).on("load", function () {
-            $(".loadersmrt").fadeOut("slow");
-        });
-
-    </script>
-
-    <a>
         <div class="loadersmrt">
             <svg class="svg-calLoadersmrt" xmlns="http://www.w3.org/2000/svg" width="230" height="230">
                 <path class="cal-loader__pathsmrt"
@@ -441,15 +61,15 @@
 
                 <!-- Navbar brand -->
                 <a href="/" class="navbar-brand" href="#" style="color: white;">Jetsave</a>
-              
+
                 <!-- Collapse button -->
                 <button class="navbar-toggler toggler-example purple darken-3" type="button" data-toggle="collapse"
                   data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
                   aria-label="Toggle navigation" style="float: right"><span class="white-text"><i class="fa fa-bars fa-1x"></i></span></button>
-              
+
                 <!-- Collapsible content -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent41">
-              
+
                   <!-- Links -->
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -472,12 +92,12 @@
                       </li> -->
                   </ul>
                   <!-- Links -->
-              
+
                 </div>
                 <!-- Collapsible content -->
-              
+
               </nav>
-        
+
                     <div class="container-fluid full-width header on-top">
                         <div class="header-wrapper on-top">
                             <div id="logo" class="d-inline on-top">
@@ -574,8 +194,8 @@
                                                 <polygon points="248.329,265.087 248.316,265.087 248.329,265.119 	" />
                                                 <polygon points="228.536,213.823 221.406,195.344 228.536,213.823 	" />
                                                 <polygon class="logojet"
-                                                    points="247.667,146.066 247.667,139.905 222.799,120.079 222.799,101.412 217.15,94.579 214.201,94.579 
-                                                                            208.552,101.412 208.552,120.079 183.684,139.905 183.684,146.066 209.534,137.678 211.796,161.163 204.545,168.278 
+                                                    points="247.667,146.066 247.667,139.905 222.799,120.079 222.799,101.412 217.15,94.579 214.201,94.579
+                                                                            208.552,101.412 208.552,120.079 183.684,139.905 183.684,146.066 209.534,137.678 211.796,161.163 204.545,168.278
                                                                             204.545,171.49 215.676,168.278 226.807,171.49 226.807,168.278 219.555,161.163 221.817,137.678 	" />
                                             </g>
                                         </g>
@@ -644,7 +264,7 @@
                                                     <h4 class="d-inline top-link">Contact Us</h4>
                                                 </a>
                                             </div>
-        
+
                                             <div class="header-top-book header-top-item">
                                                 <a href="https://jetsavetours.in">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -658,7 +278,7 @@
                                                 c27.129,52.428,52.451,101.341,78.066,150.793c26.445-21.323,26.348-21.323,23.177-49.039c-5.123-44.595-8.1-89.556-15.857-133.7
                                                 c-5.513-31.496,1.903-54.196,26.787-73.944C373.6,93.879,401.9,62.018,399.9,13.641z" />
                                                     </svg>
-        
+
                                                     <h4 class="d-inline top-link" id="test">VISA</h4>
                                                 </a>
                                             </div>
@@ -700,7 +320,7 @@
                                                     <h4>Jetsave</h4>
                                                 </a></div>
                                         </div>
-        
+
                                         <span style="font-size:30px;cursor:pointer" onclick="openNav()">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"
                                                 viewBox="0 0 400 400" class="open" fill="black">
@@ -733,7 +353,7 @@
                                                 </g>
                                             </svg>
                                         </span>
-        
+
                                     </nav>
                                     <!--
                                                                 our hover part
@@ -758,49 +378,49 @@
                                                                                 c6.102,7.138,17.746,10.05,27.318,13.599c4.546,1.675,10.209,0.559,15.354,0.279c36.81-2.153,73.181-2.951,101.137,27.358
                                                                                 C400,197.498,400,202.603,400,207.826z" />
                                             </svg></a>
-        
-        
+
+
                                     </div>
                                     <!--our hover end-->
-        
+
                                     <!--Activity hover start-->
                                     <div class="container-activity activity-hover container">
                                         <h1 style="color: white;">Pick Your Kind of Tour</h1>
                                         <div class="activity" ">
                                             <ul class="mekajet" style="display: flex; margin-left: 15%;">
-                                               
+
                                                     <div class="item">
                                                         <a href="/family-tour-packages"><img class="navimage" src="/image/Home-Page/5.jpg" width="150" height="auto;"></a>
                                                     </div>
-                        
+
                                                     <div class="item">
                                                         <a href="/honeymoon-tour-packages"><img class="navimage" src="/image/Home-Page/honey.jpg" width="150" height="auto;"></a>
                                                     </div>
-                                                
-                                               
+
+
                                                     <div class="item">
                                                         <a href="/friends-tour-packages"><img class="navimage" src="/image/Home-Page/7.jpg" width="150" height="auto;"></a>
                                                     </div>
-                                                
-                                                
+
+
                                                     <div class="item">
                                                         <a href="/wildlife-tour-packages"><img class="navimage" src="/image/Home-Page/wildlife.jpg" width="150" height="auto;"></a>
                                                     </div>
-                                                
-                                              
+
+
                                                     <div class="item">
                                                         <a href="/solo-tour-packages"> <img class="navimage" src="/image/Home-Page/solotravel.jpg" width="150" height="auto;"></a>
                                                     </div>
-                                                  
-                                                
+
+
                                                     <div class="item">
                                                         <a href="/fixed-departure-tour-packages">  <img class="navimage" src="/image/fixed.jpg" width="150" height="auto;"></a>
                                                     </div>
-    
+
                                                     <div class="item">
-                                                        <a href="/spritual-tour-packages"> <img class="navimage" src="/image/Home-Page/spritual.jpg" width="150" height="auto;"></a>			
+                                                        <a href="/spritual-tour-packages"> <img class="navimage" src="/image/Home-Page/spritual.jpg" width="150" height="auto;"></a>
                                                     </div>
-                                                                        
+
                                             </ul>
                                         </div>
                                     </div>
@@ -821,32 +441,32 @@
                                         </div>
                                     </div> -->
                                     <!--Now part start-->
-        
+
                                     <div class="get">
-        
+
                                         <a href="/travelogue-guest"><button class="now">
-        
+
                                                 Read On...
                                             </button></a>
                                     </div>
                                     <!--Now part end-->
                                     <!--input box start-->
                                     <div class="input-box box">
-        
+
                                         <a href="/travelogue-guest"><button class="browser">Browser
                                                 Travelogue</button></a>
                                         <h3 style="color:white; text-decoration:none;">See Where your fellow jetsetters
                                             are <a href="/travelogue-guest"
                                                 style="text-decoration: none; color:red">Travelling</a></h3>
-        
+
                                         <h3 style="color: white;">Become a Part of the Jetsave Community.<span
                                                 style="color: red" color="red"><a href="/signup"
                                                     style="text-decoration: none; color:red"> Signup</a></span></h3>
-        
+
                                         <h3 style="color: white;">Just want to see how aswome we are? <span
                                                 style="color: red" color="red"> <a href="/travelogue-guest"
                                                     style="text-decoration: none; color:red">Browse as Guest</a></span>
-        
+
                                     </div>
                                     <!--Input box end-->
                                     <!--About page-->
@@ -882,15 +502,14 @@
                                                                                             l-159.464,92.062c-3.352,1.935-4.504,6.229-2.563,9.575l0.245,0.433C195.798,368.998,200.086,370.144,203.438,368.202z" />
                                                 </g>
                                             </svg></a>
-        
+
                                     </div>
                                     <!--About page end-->
         </header>
         <div class="container-fluid" style="height: 100vh;">
             <div class="row">
                 <div class="col-12 bannerimg heading">
-                    <h2 style="margin-top: 39%;
-                        text-align: center; background-color:#7e585899; color: white;"> Do We Really Need Travel
+                    <h2 class="blogheading"> Do We Really Need Travel
                         Insurance?</h2>
                 </div>
 
@@ -899,11 +518,10 @@
 
         </div>
         <H1 style="text-align: center;"></H1>
-        <div class="container-blog" style="margin-top: 2%;">
+        <div class="container-blog blogarea">
             <div class="row">
-                <div class="col-sm-12 col-lg-3 sidebar"
-                style="color:  black; height: 100%; box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); padding: 2%;">
-                <h3 style="margin-left: 22%;">Services</h3>
+                <div class="col-sm-12 col-lg-3 sidebar">
+                <h3 class="services">Services</h3>
                 <ul>
                             <a href=" https://jetsavetours.in/VisaRequirementsForm "><li><img src="http://pluspng.com/img-png/simple-arrow-decorative-divider-png-512.png"
                             style="width: 21%;"> Visa Services</li></a>
@@ -1078,25 +696,89 @@
                                 journey, and most of all, a stress-free journey! </i>
 
                 </div>
-                <div class="col-sm-12 col-lg-3 sidebar" style="color: black; height: 100%; box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); padding: 2%;">
-                    <h3 style="margin-left: 22%;">More Blogs</h3>
+                <div class="col-sm-12 col-lg-3 sidebar-right">
+                    <h3 class="moreblog">More Blogs</h3>
                     <ul>
-                          <a href="beautiful-resorts-in-maldives"><li> <img class="image-blog" src="http://creativejian.com/wp-content/uploads/2018/07/anantara-veli-main.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Beautiful resorts in maldives</li></a>
-                            <a href="best-cafes-and-restaurants-in-goa"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/best-restaurants-cafes-in-goa.png?resize=632%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Cafe & Restaurant of Goa</li></a>
-                            <a href="do-we-really-need-travel-insurance"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/05/curiouskeeda1.jpg?resize=640%2C360&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Need for Travel Insurance</li></a>
-                            <a href="effective-budget-friendly-tips-to-follow"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/07/Curious-Keeda-Travel-banner.jpg?resize=608%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Budget Friendly Travel Tips</li></a>
-                            <a href="get-the-most-out-of-italy-by-visiting-these-amazing-places"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/05/curiouskeeda7-1.jpg?w=620&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Signtseeing peace in Italy</li></a>
-                            <a href="list-of-things-to-do-in-fun-european-cities-of-amsterdam-berlin-prague-budapest"><li><img class="image-blog" src="/image/collagess/Amsterdam-berlin-prague-and-budapest.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Scintinating Europe</li></a>
-                            <a href="most-exotic-and-highly-enjoyable-destinations-to-visit-this-summer"><li><img class="image-blog" src="https://i1.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/04/curiouskeeda1-1.jpeg?resize=630%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Exotic Summer Distinations</li></a>
-                            <a href="must-see-places-in-india-once-in-your-lifetime"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/04/curiouskeeda.jpg?resize=640%2C335&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Experience India</li></a>
-                            <a href="perks-of-tour-packages-plan-your-trip-now"><li><img class="image-blog" src="https://i1.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/06/curiouskeeda1-2.jpg?fit=3200%2C1680&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Perks of Tours Packages</li></a>
-                            <a href="romantic-places-for-honeymoon-in-greece"><li><img class="image-blog" src="https://i1.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/romantic-honeymoon-greece-curiouskeeda.jpg?resize=640%2C415&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Honeymoon in Greece</li></a>
-                            <a href="things-to-do-in-bali-with-friends"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/bali-indonesia-jetsave-curiouskeeda.jpg?zoom=0.9375&fit=1920%2C800&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Bali pleasure with Friends</li></a>
-                            <a href="things-to-do-in-toronto"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/08/Curiouskeeda-Toronto-banner-1.jpg?resize=640%2C361&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Things to do in toronto</li></a>
-                            <a href="tips-to-travel-like-a-pro"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/08/tips-for-traveling-smart-1.jpg?resize=640%2C539&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Tips to travel like a pro</li></a>
-                            <a href="travel-tips-to-make-your-first-international-trip-smooth"><li><img class="image-blog" src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/International-Travel-Tips.jpg?resize=640%2C320&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;International Trvael Tips</li></a>
-                            <a href="vacation-on-budget"><li><img class="image-blog" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/honeymoon-destinations-1527740955.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Vacation on budget</li></a>
-                            <a href="why-is-visa-so-important"><li><img class="image-blog" src="https://i2.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/07/curiouskeeda1-9.jpg?resize=631%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Why is visa so Important?</li></a>
+                        <a href="beautiful-resorts-in-maldives">
+                            <li> <img class="image-blog"
+                                    src="http://creativejian.com/wp-content/uploads/2018/07/anantara-veli-main.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Beautiful
+                                resorts in maldives</li>
+                        </a>
+                        <a href="best-cafes-and-restaurants-in-goa">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/best-restaurants-cafes-in-goa.png?resize=632%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Cafe
+                                & Restaurant of Goa</li>
+                        </a>
+                        <a href="do-we-really-need-travel-insurance">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/05/curiouskeeda1.jpg?resize=640%2C360&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Need
+                                for Travel Insurance</li>
+                        </a>
+                        <a href="effective-budget-friendly-tips-to-follow">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/07/Curious-Keeda-Travel-banner.jpg?resize=608%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Budget
+                                Friendly Travel Tips</li>
+                        </a>
+                        <a href="get-the-most-out-of-italy-by-visiting-these-amazing-places">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/05/curiouskeeda7-1.jpg?w=620&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Signtseeing
+                                peace in Italy</li>
+                        </a>
+                        <a href="list-of-things-to-do-in-fun-european-cities-of-amsterdam-berlin-prague-budapest">
+                            <li><img class="image-blog"
+                                    src="https://i2.wp.com/www.curiouskeeda.com/wp-content/uploads/2020/02/banner-1.jpg?resize=640%2C400&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Scintinating
+                                Europe</li>
+                        </a>
+                        <a href="most-exotic-and-highly-enjoyable-destinations-to-visit-this-summer">
+                            <li><img class="image-blog"
+                                    src="https://i1.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/04/curiouskeeda1-1.jpeg?resize=630%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Exotic
+                                Summer Distinations</li>
+                        </a>
+                        <a href="must-see-places-in-india-once-in-your-lifetime">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/04/curiouskeeda.jpg?resize=640%2C335&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Experience
+                                India</li>
+                        </a>
+                        <a href="perks-of-tour-packages-plan-your-trip-now">
+                            <li><img class="image-blog"
+                                    src="https://i1.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/06/curiouskeeda1-2.jpg?fit=3200%2C1680&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Perks
+                                of Tours Packages</li>
+                        </a>
+                        <a href="romantic-places-for-honeymoon-in-greece">
+                            <li><img class="image-blog"
+                                    src="https://i1.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/romantic-honeymoon-greece-curiouskeeda.jpg?resize=640%2C415&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Honeymoon
+                                in Greece</li>
+                        </a>
+                        <a href="things-to-do-in-bali-with-friends">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/bali-indonesia-jetsave-curiouskeeda.jpg?zoom=0.9375&fit=1920%2C800&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Bali
+                                pleasure with Friends</li>
+                        </a>
+                        <a href="things-to-do-in-toronto">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/08/Curiouskeeda-Toronto-banner-1.jpg?resize=640%2C361&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Things
+                                to do in toronto</li>
+                        </a>
+                        <a href="tips-to-travel-like-a-pro">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/08/tips-for-traveling-smart-1.jpg?resize=640%2C539&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Tips
+                                to travel like a pro</li>
+                        </a>
+                        <a href="travel-tips-to-make-your-first-international-trip-smooth">
+                            <li><img class="image-blog"
+                                    src="https://i0.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/12/International-Travel-Tips.jpg?resize=640%2C320&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;International
+                                Trvael Tips</li>
+                        </a>
+                        <a href="vacation-on-budget">
+                            <li><img class="image-blog"
+                                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/honeymoon-destinations-1527740955.jpg">&nbsp;&nbsp;&nbsp;&nbsp;Vacation
+                                on budget</li>
+                        </a>
+                        <a href="why-is-visa-so-important">
+                            <li><img class="image-blog"
+                                    src="https://i2.wp.com/www.curiouskeeda.com/wp-content/uploads/2019/07/curiouskeeda1-9.jpg?resize=631%2C420&ssl=1">&nbsp;&nbsp;&nbsp;&nbsp;Why
+                                is visa so Important?</li>
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -1175,23 +857,23 @@
                                     <li>
                                         <a href="India-Sri-Lanka-Destination">India & Srilanka</a>
                                     </li>
-    
+
                                 </ol>
                                 <h2 class="topmargin">VISIT US ON : <a class="icon"
                                         href="https://www.facebook.com/jetsaveindia/"><i
                                             class="fab fa-facebook"></i></a> <a class="icon"
                                         href="https://www.instagram.com/jetsaveindia/?hl=en"><i
                                             class="fab fa-instagram"></i></a>
-    
+
                                     <a class="icon" href="https://twitter.com/_JetsaveIndia_"><i
                                             class="fab fa-twitter"></i></a> <a class="icon              "
                                         href="https://www.youtube.com/channel/UCopv8-9C0oPGZEXEVyt9SMw/videos"><i
                                             class="fab fa-youtube"></i></a> </h2>
                                 <ol class="d-inline-flex socialicons">
-    
-    
-    
-    
+
+
+
+
                                 </ol>
                             </div>
                         </div>
@@ -1200,10 +882,10 @@
                                 <h1 class="formtext">
                                     Get More Travel Stories
                                 </h1>
-    
+
                                 <input type="email" name="email" value="Enter your email ID" class="formfill">
                                 <input type="button" value="Submit" class="formbutton">
-    
+
                             </span>
                         </div>
                         <div class="img-section">
@@ -1310,14 +992,14 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
-    
+
                                 </div>
                             </div>
                             <a href="#popup4">
@@ -1348,14 +1030,14 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
-    
+
                                 </div>
                             </div>
                             <a href="#popup5">
@@ -1387,14 +1069,14 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
-    
+
                                 </div>
                             </div>
                             <a href="#popup6">
@@ -1427,14 +1109,14 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
-    
+
                                 </div>
                             </div>
                             <a href="#popup7">
@@ -1466,12 +1148,12 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
                                 </div>
                             </div>
@@ -1504,12 +1186,12 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
                                 </div>
                             </div>
@@ -1541,12 +1223,12 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
                                 </div>
                             </div>
@@ -1577,12 +1259,12 @@
                                         7290099970,8588829128,8178669522
                                         Email- kanika.segan@jetsavetours.com
                                     </h4><br>
-    
+
                                     <h4 style="color: black; font-size:17px">
-    
+
                                         Website : www.jetsavetours.com
                                     </h4>
-    
+
                                     <a class="close" href="#footerlocation4">&times;</a>
                                 </div>
                             </div>
@@ -1600,7 +1282,7 @@
                                     </g>
                                 </svg>
                             </a>
-    
+
                         </span>
                         <span id="footermob">
                             <h3 class="tophead text-center">HeadOffice</h3>
@@ -1622,168 +1304,14 @@
 
 
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <!-- ajax CDN,  Popper.js CDN and Bootstrap JS -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
-    <!-- Custom JS file -->
-    <script type="text/javascript" src="JetsaveStyle.js"></script>
-    <!-- script from code pen for testing -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.jsd"></script>
-        <script src="./assets/js/script.js"></script>
-
-
-        <!-- section for code testing -->
-
-</body>
-
-<script>
-    $.getJSON("/blogarea/allblogarea", data => {
-        project = data;
-        console.log(data);
-        fillDropDown("blogarea", data, "Choose Location", 0);
-    });
-
-
-
-    $.getJSON("/addtype/alltype", data => {
-        project = data;
-        console.log(data);
-        a("typename", data, "Choose type", 0);
-    });
-
-    function fillDropDown(id, data, label, selectedid = 0) {
-        $(`#${id}`).empty();
-        $(`#${id}`).append(
-            $("<option>")
-                .val("null")
-                .text(label)
-        );
-        $.each(data, (i, item) => {
-            if (item.id == selectedid) {
-                $(`#${id}`).append(
-                    $("<option selected>")
-                        .val(item.id)
-                        .text(item.blogareaname)
-                );
-            } else {
-                $(`#${id}`).append(
-                    $("<option>")
-                        .val(item.id)
-                        .text(item.blogareaname)
-                );
-            }
-        });
-    };
-
-    function a(id, data, label, selectedid = 0) {
-        $(`#${id}`).empty();
-        $(`#${id}`).append(
-            $("<option>")
-                .val("null")
-                .text(label)
-        );
-        $.each(data, (i, item) => {
-            if (item.id == selectedid) {
-                $(`#${id}`).append(
-                    $("<option selected>")
-                        .val(item.id)
-                        .text(item.typename)
-                );
-            } else {
-                $(`#${id}`).append(
-                    $("<option>")
-                        .val(item.id)
-                        .text(item.typename)
-                );
-            }
-        });
-    };
-
-
-</script>
-
-<script>
-
-    $('#blogarea').change(function () {
-        const a = $('#blogarea').val()
-
-        $.get('/travelogue_guest/allblogarea', { a }, data => {
-            console.log(data)
-            let table = `<div id="blogbottom" class="container-fluid full-width">
-            <div class="row proftrav full-width">`
-            $.each(data, function (i, item) {
-                table += `    <div class="col-sm-6 col-md-4 proftravinner proftravmar">
-                    <span id="proftravlbo">
-                        <img class="proftravblogimg" src="/images/${item.blogimage}" alt=""></a>
-
-                        <img class="proftravlbo-author" src="" alt=""
-                         style="width:50px;" height="50px;" >
-                    </span>
-                    <span class="">
-                        <h4 class="proftophead">2019, July 14</h4>
-                        <h3 class="profbottomhead">${item.blogtext}</h3>
-                    </span>
-                </div>`;
-
-            })
-
-            $('#result').html(table)
-            $('.filtercity').hide()
-            $('#result').show()
-        })
-
-    })
-
-    $('.filtercity').show()
-
-</script>
-
-
-<script>
-
-    $('#typename').change(function () {
-        const b = $('#typename').val()
-        const a = $('#blogarea').val()
-
-        $.get('/travelogue_guest/alltypename', { a, b }, data => {
-            console.log(data)
-            let table = `<div id="blogbottom" class="container-fluid full-width">
-            <div class="row proftrav full-width">`
-            $.each(data, function (i, item) {
-                table += `    <div class="col-sm-6 col-md-4 proftravinner proftravmar">
-                    <span id="proftravlbo">
-                        <img class="proftravblogimg" src="/images/${item.blogimage}" alt=""></a>
-
-                        <img class="proftravlbo-author" src="" alt=""
-                         style="width:50px;" height="50px;" >
-                    </span>
-                    <span class="">
-                        <h4 class="proftophead">2019, July 14</h4>
-                        <h3 class="profbottomhead">${item.blogtext}</h3>
-                    </span>
-                </div>`;
-
-            })
-
-            $('#result').html(table)
-            $('.filtercity').hide()
-            $('#result').show()
-        })
-
-    })
-
-    $('.filtercity').show()
-
-</script>
 
 </html>

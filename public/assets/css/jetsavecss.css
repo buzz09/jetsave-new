@@ -977,9 +977,7 @@ CONTACT US PAGE STARTS HERE
     height: 80vh;
 }
 .hibg1 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-	url('/CSS/img/about.jpg');
-	background-size: 100%;
+	background-image: url('/CSS/img/about.jpg');
 	position: relative;
 	background-repeat: no-repeat;
 	height: 80vh;

@@ -10,7 +10,7 @@ gtag('config', 'UA-147992183-1');
 
 
 
-// Tawk To Js 
+// Tawk To Js
 
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 	(function () {
@@ -343,6 +343,7 @@ $(document).ready(function () {
         $(".loadersmrt").fadeOut("slow");
     });
 
+		
 
 
     $(function () {
@@ -362,12 +363,8 @@ $(document).ready(function () {
 		});
 
     });
-    
+
 
     function showdes() {
         document.getElementById("desthover").style.width = "100%";
     }
-
-
-
-

@@ -3,6 +3,7 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 />
+<link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
 
 <style>
   * {
@@ -125,7 +126,7 @@
     background: transparent;
     border: 0;
     font-size: 15px;
-    
+
     color: #800b0b;
   }
 
@@ -148,7 +149,7 @@
     border: 0px;
     transition: all 0.3s;
   }
-  
+
   .mb-screen:after {
     content: "";
     position: absolute;
@@ -202,7 +203,7 @@
   }
   a{
     text-decoration: none;
-    
+
   }
   @keyframes cloud {
     from {
@@ -242,7 +243,11 @@
       <div class="login-details">
         <div class="title animated fadeInLeft">
           <center>Login With Jetsave</center>
-           
+
+          <% if (messages.error) { %>
+         <center> <div class="alert alert-danger" role="alert" style="color: red;"><%- messages.error %></div> </center>
+            <% } %>
+
         </div>
         <form action="/travelogue-guest/all" method="post">
         <div class="input-box animated  fadeInRight">
@@ -266,23 +271,22 @@
         <div class="lg-btn d-flex flex-1 animated  fadeInRight">
           <button class="flex-1">Log In</button>
 
-       
-          
-              
+
+
+
           </form>
-          
+
         </div>
         <div class="lg-btn d-flex flex-1 animated  fadeInRight">
          <button class="flex-1"><a href="/signup" style="color: white;">Signup</a></button>
-        
-        
-          
-        
+
+
+
+
         </div>
       </div>
-    
+
     </div>
-    
+
   </div>
 </div>
-
