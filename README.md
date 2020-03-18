@@ -1,3 +1,3 @@
 # jetsave-new
 
-<img src="./img/logo.png">
+<img src="/img/logo.png">
