@@ -147,7 +147,7 @@
             position: fixed;
             top: 45px;
             right: -140px;
-            fill: white;
+            fill: black;
         }
 
         @media screen and (max-height: 450px) {
@@ -208,7 +208,7 @@
             float: left;
             left: 20px;
             top: -20px;
-            fill: white;
+            fill: black;
         }
 
   
@@ -804,7 +804,7 @@
 
         .open1 {
             display: none;
-            color: black    ;
+            color: black;
             float: right;
         }
 
@@ -875,6 +875,7 @@
                 display: block;
                 position: fixed;
                 left: 90%;
+                fill: black;
             }
         }
 

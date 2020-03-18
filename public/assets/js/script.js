@@ -1,18 +1,3 @@
-  // Middel_East_Asia Hover Part
-        // $(document).ready(function() {
-        //       $('.image').hide();
-        //       $('.dubai').hover(function(){
-        //           $('.image').fadeIn(2000);
-        //       })
-        // })
-
-    // // austraila Hover Part
-    // $(document).ready(function() {
-    //       $('.image').hide();
-    //       $('.austraila').hover(function(){
-    //           $('.image').fadeIn(2000);
-    //       })
-    // })
 
     // thailand Hover Part
     $(document).ready(function() {
