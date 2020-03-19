@@ -1,9 +1,9 @@
 .navbar {
-  display: none;
+  display: none !important; 
   background-color: black;
 }
 .mobilecontainer {
-  display: none;
+  display: none !important;
 }
 .mobileimageview {
   display: none;
@@ -16,10 +16,10 @@
 
 @media only screen and (max-width: 600px) {
   .header {
-    display: none;
+    display: none !important;
   }
   .webcontainer {
-    display: none;
+    display: none !important;
   }
   .mobilecontainer {
     display: block;
@@ -29,16 +29,16 @@
     margin-top: 46px;
   }
   .loadersmrt {
-    display: none;
+    display: none !important;
   }
   .mobileimageview {
     display: block;
   }
   .leftmenufix {
-    display: none;
+    display: none !important;
   }
   .itisvg {
-    display: none;
+    display: none !important;
   }
   .categorywebimage {
     display: none !important;
@@ -47,7 +47,7 @@
     display: block;
   }
   #our-expertcarousesl {
-    display: none;
+    display: none !important;
   }
   .choice-height,
   #peoplechoicetours {

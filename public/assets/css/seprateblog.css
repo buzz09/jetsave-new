@@ -20,8 +20,13 @@ p {
 .image-blog {
     width: 73px;
     height: 71px;
-    margin-left: -19%;
-    margin-bottom: 10%;
+    margin-left: -9%;
+    margin-bottom: 17%;
+}
+
+.sidebar-nav{
+    color: black !important;
+    text-emphasis: none !important;
 }
 
 .buttonabout {
