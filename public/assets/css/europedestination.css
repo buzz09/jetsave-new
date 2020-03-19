@@ -1,0 +1,263 @@
+.open {
+  fill: black;
+}
+
+.svglogo {
+  fill: black;
+}
+
+.southasia {
+  height: 464px;
+  width: 100%;
+  left: 18%;
+  margin-top: 12%;
+}
+
+.image img {
+  width: 508px;
+  height: auto;
+
+  /* right: 31%; */
+  margin-top: 6%;
+}
+
+.cls-1 {
+  fill: #e6e6e6;
+  stroke: #fff;
+  stroke-width: 0.5px;
+}
+
+.cls-1,
+.cls-3 {
+  stroke-miterlimit: 10;
+}
+
+.cls-2 {
+  fill: #4d4d4d;
+}
+
+.cls-3 {
+  fill: none;
+  stroke: #4d4d4d;
+  stroke-width: 3px;
+}
+
+.itinaeary-detail {
+  /* bottom: 0; */
+  top: 0;
+  margin-top: -2.5%;
+  width: 500px;
+
+  background-color: #252424;
+  height: auto;
+  color: white !important;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.itinaeary-detail p {
+  color: white !important;
+}
+
+.turkey:hover {
+  fill: red !important;
+  cursor: pointer;
+}
+
+.greece:hover {
+  fill: red !important;
+  cursor: pointer;
+}
+
+.crotia:hover {
+  fill: red !important;
+  cursor: pointer;
+}
+
+.budapest:hover {
+  fill: red !important;
+  cursor: pointer;
+}
+
+.turkey,
+.greece,
+.crotia,
+.budapest {
+  fill: #f7d0d0 !important;
+  -webkit-transition: fill 2s ease-out;
+  -moz-transition: fill 2s ease-out;
+  -o-transition: fill 2s ease-out;
+  transition: fill 2s ease-out;
+}
+
+.indiabackgroundimage {
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/13/15/37/skyline-1738058_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 63%;
+}
+
+.indiabackgroundimage h1 {
+  position: absolute;
+  top: 60%;
+  color: white;
+  right: 5%;
+  font-style: oblique;
+  font-size: 55px;
+  font-family: "Parisienne";
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-turkey {
+  background-image: url(http://journeys.jetsavetours.in/image/Turkey/s14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 48%;
+  border-radius: 0.4em;
+  height: 500px;
+  margin: 5% 0;
+}
+
+.card-turkey-body {
+  display: none;
+}
+
+.card-turkey:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(2, 2, 2, 0.88),
+      rgba(214, 0, 0, 0.41)
+    ),
+    url(http://journeys.jetsavetours.in/image/Turkey/s14.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  width: 100%;
+  color: white !important;
+}
+
+.card-turkey:hover .card-turkey-body {
+  display: block;
+  padding: 60px 5% 0 5%;
+}
+
+.hoveringcity {
+  padding-left: 8%;
+}
+
+.card-greece {
+  background-image: url(http://journeys.jetsavetours.in/CSS/img/jetsave/Greece/img3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 47%;
+  border-radius: 0.4em;
+  height: 500px;
+  margin: 5% 0;
+}
+
+.card-greece-body {
+  display: none;
+}
+
+.card-greece:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(2, 2, 2, 0.88),
+      rgba(214, 0, 0, 0.41)
+    ),
+    url(http://journeys.jetsavetours.in/CSS/img/jetsave/Greece/img3.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  width: 100%;
+  color: white !important;
+}
+
+.card-greece:hover .card-greece-body {
+  display: block;
+  padding: 60px 5% 0 5%;
+}
+
+.card-cro {
+  background-image: url(http://journeys.jetsavetours.in/image/Croatia/s3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 49%;
+  border-radius: 0.4em;
+  height: 500px;
+  margin: 5% 0;
+}
+
+.card-cro-body {
+  display: none;
+}
+
+.card-cro:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(2, 2, 2, 0.88),
+      rgba(214, 0, 0, 0.41)
+    ),
+    url(http://journeys.jetsavetours.in/image/Croatia/s3.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  width: 100%;
+  color: white !important;
+}
+
+.card-cro:hover .card-cro-body {
+  display: block;
+  padding: 60px 5% 0 5%;
+}
+
+.card-buda {
+  background-image: url(http://journeys.jetsavetours.in/image/AMSTERDAM/s10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 49%;
+  border-radius: 0.4em;
+  height: 500px;
+  margin: 5% 0;
+}
+
+.card-buda-body {
+  display: none;
+}
+
+.card-buda:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(2, 2, 2, 0.88),
+      rgba(214, 0, 0, 0.41)
+    ),
+    url(http://journeys.jetsavetours.in/image/AMSTERDAM/s10.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  width: 100%;
+  color: white !important;
+}
+
+.card-buda:hover .card-buda-body {
+  display: block;
+  padding: 60px 5% 0 5%;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.ftrditi1 {
+  margin-top: 8% !important;
+}
+
+.ftrditi1 h1 {
+  color: black;
+  text-align: center;
+  font-family: "parisienne";
+}

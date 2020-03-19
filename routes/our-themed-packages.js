@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/family-tour-packages", (req, res) => {
-  res.render("our-themed-packages/family-tour-packages");
+  res.render("our-themed-packages/family-tour-packages"); 
 }
 );
 

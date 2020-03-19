@@ -1,0 +1,257 @@
+
+    .open {
+        fill: black;
+    }
+
+    .svglogo {
+        fill: black;
+    }
+
+    .southasia {
+        height: 464px;
+        width: 100%;
+        left: 18%;
+        margin-top: 12%;
+
+    }
+
+    .image img {
+        width: 508px;
+        height: auto;
+
+        /* right: 31%; */
+        margin-top: 6%;
+    }
+
+    .cls-1 {
+        fill: #e6e6e6;
+        stroke: #fff;
+        stroke-width: 0.5px;
+    }
+
+    .cls-1,
+    .cls-3 {
+        stroke-miterlimit: 10;
+    }
+
+    .cls-2 {
+        fill: #4d4d4d;
+    }
+
+    .cls-3 {
+        fill: none;
+        stroke: #4d4d4d;
+        stroke-width: 3px;
+    }
+
+    .itinaeary-detail {
+
+        /* bottom: 0; */
+        top: 0;
+        margin-top: -2.5%;
+        width: 500px;
+
+        background-color: #252424;
+        height: auto;
+        color: white !important;
+        border-radius: 20px;
+        padding: 5%;
+    }
+
+    .itinaeary-detail p {
+        color: white !important;
+    }
+
+    .dubai:hover {
+        fill: red !important;
+        cursor: pointer;
+    }
+
+    .dubai {
+        fill: #f7d0d0 !important;
+        -webkit-transition: fill 2s ease-out;
+        -moz-transition: fill 2s ease-out;
+        -o-transition: fill 2s ease-out;
+        transition: fill 2s ease-out;
+    }
+
+    .indiabackgroundimage {
+        background-image: url(https://cdn.tourcms.com/a/10181/81/3/large.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 9%;
+    }
+
+    .indiabackgroundimage h1 {
+        position: absolute;
+        top: 60%;
+        color: white;
+        right: 5%;
+        font-style: oblique;
+        font-size: 55px;
+        font-family: 'Parisienne';
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-thai {
+        background-image: url(http://journeys.jetsavetours.in/image/Orlando/s4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 48%;
+        border-radius: .4em;
+        height: 500px;
+        margin: 5% 0;
+    }
+
+    .card-thai-body {
+        display: none;
+    }
+
+    #south_america {
+        height: 464px;
+        width: 100%;
+        left: 18%;
+        margin-top: 12%;
+
+    }
+
+    .card-thai:hover {
+        background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)),
+            url(http://journeys.jetsavetours.in/image/Orlando/s4.jpg);
+        background-size: cover;
+        color: black;
+        text-align: center;
+        width: 100%;
+        color: white !important;
+
+    }
+
+    .card-thai:hover .card-thai-body {
+        display: block;
+        padding: 60px 5% 0 5%;
+
+    }
+
+    .hoveringcity {
+        padding-left: 8%;
+    }
+
+    .card-sing {
+        background-image: url(/CSS/img/jetsave/dubai/map.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 47%;
+        border-radius: .4em;
+        height: 500px;
+        margin: 5% 0;
+
+    }
+
+    .card-sing-body {
+        display: none;
+    }
+
+    .card-sing:hover {
+        background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)),
+            url(/CSS/img/jetsave/dubai/map.jpg);
+        background-size: cover;
+        color: black;
+        text-align: center;
+        width: 100%;
+        color: white !important;
+    }
+
+    .card-sing:hover .card-sing-body {
+        display: block;
+        padding: 60px 5% 0 5%;
+
+    }
+
+
+    .card-inside {
+        background-image: url(http://journeys.jetsavetours.in/image/Eastern/s8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 49%;
+        border-radius: .4em;
+        height: 500px;
+        margin: 5% 0;
+
+    }
+
+    .card-inside-body {
+        display: none;
+    }
+
+    .card-inside:hover {
+        background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)),
+            url(http://journeys.jetsavetours.in/image/Eastern/s8.jpg);
+        background-size: cover;
+        color: black;
+        text-align: center;
+        width: 100%;
+        color: white !important;
+    }
+
+    .card-inside:hover .card-inside-body {
+        display: block;
+        padding: 60px 5% 0 5%;
+
+    }
+
+
+    /**/
+
+
+    .card-central {
+        background-image: url(image/East-Coast/s4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 49%;
+        border-radius: .4em;
+        height: 500px;
+        margin: 5% 0;
+
+    }
+
+    .card-central-body {
+        display: none;
+    }
+
+    .card-central:hover {
+        background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)),
+            url(image/East-Coast/s4.jpg);
+        background-size: cover;
+        color: black;
+        text-align: center;
+        width: 100%;
+        color: white !important;
+    }
+
+    .card-central:hover .card-central-body {
+        display: block;
+        padding: 60px 5% 0 5%;
+
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: white !important;
+    }
+
+    .ftrditi1 {
+        margin-top: 8% !important;
+    }
+
+    .ftrditi1 h1 {
+        color: black;
+        text-align: center;
+        font-family: 'parisienne';
+    }

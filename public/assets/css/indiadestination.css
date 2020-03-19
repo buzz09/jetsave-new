@@ -1,0 +1,278 @@
+
+	.southasia {
+		height: 464px;
+		width: 100%;
+		left: 18%;
+		margin-top: 12%;
+
+	}
+
+	.image img {
+		width: 508px;
+		height: auto;
+
+		/* right: 31%; */
+		margin-top: 6%;
+	}
+
+	.itinaeary-detail {
+
+		/* bottom: 0; */
+		top: 0;
+		margin-top: -2.5%;
+		width: 500px;
+
+		background-color: #252424;
+		height: auto;
+		color: white !important;
+		border-radius: 20px;
+		padding: 5%;
+	}
+
+	.itinaeary-detail p {
+		color: white !important;
+	}
+
+	.ladakh:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.jammu:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.uttrakhand:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.raj:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.gujrat:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.mp:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.goa:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.kerla:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.tn:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.ani:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.sri:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.up:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+
+	.delhi:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.maldives:hover {
+		fill: red !important;
+		cursor: pointer;
+	}
+
+	.ladakh,
+	.jammu,
+	.uttrakhand,
+	.raj,
+	.gujrat,
+	.mp,
+	.goa,
+	.kerla,
+	.tn,
+	.ani,
+	.sri,
+	.up,
+	.delhi,
+	.maldives {
+		fill: #f7d0d0 !important;
+		-webkit-transition: fill 2s ease-out;
+		-moz-transition: fill 2s ease-out;
+		-o-transition: fill 2s ease-out;
+		transition: fill 2s ease-out;
+	}
+
+	.indiabackgroundimage {
+		background-image: url(/image/collages/India.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: 35%;
+		color: white;
+	}
+
+	.indiabackgroundimage h1 {
+		position: absolute;
+		top: 60%;
+		right: 5%;
+		font-style: oblique;
+		font-size: 55px;
+		font-family: 'Parisienne';
+	}
+
+	.card-title {
+		font-size: 25px;
+	}
+
+	.card-raj {
+		background-image: url(http://journeys.jetsavetours.in/CSS/img/jetsave/Rajasthan/img3.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: 48%;
+		border-radius: .4em;
+		height: 500px;
+		margin: 5% 0;
+
+	}
+
+	.card-raj-body {
+		display: none;
+	}
+
+	.card-raj:hover {
+		background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)), url(http://journeys.jetsavetours.in/CSS/img/jetsave/Rajasthan/img3.jpg);
+		background-size: cover;
+		color: black;
+		text-align: center;
+		width: 100%;
+		color: white !important;
+
+	}
+
+	.card-raj:hover .card-raj-body {
+		display: block;
+		padding: 60px 5% 0 5%;
+
+	}
+
+
+
+	.card-chenni {
+		background-image: url(http://journeys.jetsavetours.in/CSS/img/jetsave/Tamilnadu/img2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: 47%;
+		border-radius: .4em;
+		height: 500px;
+		margin: 5% 0;
+
+	}
+
+	.card-chenni-body {
+		display: none;
+	}
+
+	.card-chenni:hover {
+		background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)), url(http://journeys.jetsavetours.in/CSS/img/jetsave/Tamilnadu/img2.jpg);
+		background-size: cover;
+		color: black;
+		text-align: center;
+		width: 100%;
+		color: white !important;
+	}
+
+	.card-chenni:hover .card-chenni-body {
+		display: block;
+		padding: 60px 5% 0 5%;
+
+	}
+
+
+	.card-gold {
+		background-image: url(http://journeys.jetsavetours.in/CSS/img/jetsave/Golden/img2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: 49%;
+		border-radius: .4em;
+		height: 500px;
+		margin: 5% 0;
+
+	}
+
+	.card-gold-body {
+		display: none;
+	}
+
+	.card-gold:hover {
+		background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)), url(http://journeys.jetsavetours.in/CSS/img/jetsave/Golden/img2.jpg);
+		background-size: cover;
+		color: black;
+		text-align: center;
+		width: 100%;
+		color: white !important;
+	}
+
+	.card-gold:hover .card-gold-body {
+		display: block;
+		padding: 60px 5% 0 5%;
+
+	}
+
+
+
+	.card-jammu {
+		background-image: url(http://journeys.jetsavetours.in/CSS/img/jetsave/Kashmir/img2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: 35%;
+		border-radius: .4em;
+		height: 500px;
+		margin: 5% 0;
+
+	}
+
+	.card-jammu-body {
+		display: none;
+	}
+
+	.card-jammu:hover {
+		background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.88), rgba(214, 0, 0, 0.41)), url(http://journeys.jetsavetours.in/CSS/img/jetsave/Kashmir/img2.jpg);
+		background-size: cover;
+		color: black;
+		text-align: center;
+		width: 100%;
+		color: white !important;
+	}
+
+	.card-jammu:hover .card-jammu-body {
+		display: block;
+		padding: 60px 5% 0 5%;
+
+	}
+
+	a {
+		text-decoration: none !important;
+		color: white !important;
+	}

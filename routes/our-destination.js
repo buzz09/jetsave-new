@@ -21,8 +21,8 @@ router.get("/africa", (req, res) => {
 );
 
 
-router.get("/austrila", (req, res) => {
-  res.render("our-destination/austrila");
+router.get("/austraila", (req, res) => {
+  res.render("our-destination/austraila");
 }
 );
 
