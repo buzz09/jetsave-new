@@ -337,7 +337,6 @@ h6{
 	/*Destination Hover CSS starts*/
 
 #desthover{
-
 	z-index: 0.9;
 	width: 0;
 	position: fixed;
@@ -350,20 +349,9 @@ h6{
     background-size: cover;
     background-position: center;
 	transition-duration: 0.3s;
-
 }
 
 
-
-	/*Destination hover CSS ends*/
-
-
-
-/*.main-nav-item:hover{
-	border-bottom: 2px solid #ef3a3a;
-	transform: translate(2px)
-}
-*/
 .main-nav-item{
 	color: #fff;
 	min-width: 120px;

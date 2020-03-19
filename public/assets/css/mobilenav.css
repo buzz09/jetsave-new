@@ -3,7 +3,7 @@
   background-color: black;
 }
 .mobilecontainer {
-  display: none !important;
+  display: none ;
 }
 .mobileimageview {
   display: none;
@@ -22,7 +22,7 @@
     display: none !important;
   }
   .mobilecontainer {
-    display: block;
+    display: block !important;
   }
   .svgimage {
     width: 232% !important;
@@ -44,7 +44,7 @@
     display: none !important;
   }
   .navbar {
-    display: block;
+    display: block !important;
   }
   #our-expertcarousesl {
     display: none !important;

@@ -203,7 +203,6 @@
         .svglogo {
             height: 150px;
             width: 150px;
-            filter: white;
             position: fixed;
             float: left;
             left: 20px;
@@ -531,7 +530,7 @@
             .svglogo {
                 height: 50px;
                 width: 50px;
-                filter: white;
+                fill: black;
                 position: fixed;
                 float: left;
                 left: 10px;
@@ -544,7 +543,7 @@
                 position: fixed;
                 top: 30px;
                 left: 100px;
-                fill: white;
+                fill: black;
             }
 
             .carousel-indicators li {

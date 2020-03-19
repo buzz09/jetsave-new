@@ -1,0 +1,119 @@
+    @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+
+	.col-md-6 {
+		text-align: center;
+		padding-bottom: 50px;
+		border-right: 1px dashed black;
+	}
+
+	.col-md-6:last-child {
+		border-right: 1px solid black;
+	}
+
+	.counter {
+		animation-duration: 1s;
+		animation-delay: 0s;
+	}
+
+	i {
+		font-size: 20px !Important;
+	}
+
+	@media (max-width: 991px) {
+		.col-md-6 {
+			border-right: 0px dashed black;
+			border-bottom: 1px dashed black;
+			width: 50%;
+			margin: auto auto;
+		}
+
+		.col-md-6:last-child {
+			border-bottom: 0px dashed black;
+		}
+	}
+
+	.buttonabout {
+		font-size: 1em;
+		padding: 10px;
+		color: #fff;
+		border: 2px solid #06D85F;
+		border-radius: 20px/50px;
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 0.3s ease-out;
+	}
+
+	.buttonabout:hover {
+		background: #06D85F;
+	}
+
+	.overlayabout {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.7);
+		transition: opacity 500ms;
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	.overlayabout:target {
+		visibility: visible;
+		opacity: 1;
+		z-index: 9999;
+	}
+
+	.popup,
+	.eety {
+		margin: 70px auto;
+		padding: 20px;
+		background: #fff;
+		border-radius: 5px;
+		width: 50%;
+		height: 55%;
+		position: relative;
+
+	}
+
+
+
+	.popup h2 {
+		margin-top: -32%;
+		margin-left: 47%;
+		color: #333;
+		font-family: Tahoma, Arial, sans-serif;
+	}
+
+	#h2 {
+		margin-top: 2%;
+		margin-left: 47%;
+		color: #333;
+		font-family: Tahoma, Arial, sans-serif;
+	}
+
+	.popup .close {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		transition: all 200ms;
+		font-size: 30px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #333;
+	}
+
+	.popup .close:hover {
+		color: #06D85F;
+	}
+
+	.popup .content {
+		max-height: 30%;
+		overflow: auto;
+	}
+
+	.ourtrade {
+		margin-top: 1%;
+    }
+    

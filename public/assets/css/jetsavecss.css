@@ -289,7 +289,7 @@ h6{
 }
 
 .svglogo{
-	fill: #fff;
+	fill: black;
 }
 
 .svglogo:hover .logojet{
@@ -982,6 +982,7 @@ CONTACT US PAGE STARTS HERE
 .hibg1 {
 	background-image: url('/CSS/img/about.jpg');
 	position: relative;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 80vh;
 }
@@ -1351,7 +1352,7 @@ Profile page CSS starts here
 }
 
 #blogbottom{
-	margin-top: 5pxx;
+	margin-top: 5px;
 }
 
 /*<!-- testing code before puttin it in the place -->*/
@@ -1382,12 +1383,9 @@ profile-member page style
 	border-radius: 50px;
 	text-align: center;
 	height: 40px;
-	font-size: 24px;s
+	font-size: 24px;
 }
 
-.aboutmember{
-
-}
 
 .memberbio{
 	margin-top: 24px;
@@ -1400,7 +1398,9 @@ profile-member page style
 
 .editsvg{
     padding: 2%;
-	right: -97px;
+    right: -15%;
+    position: relative;
+    margin-top: 6%;
 }
 
 

@@ -38,7 +38,7 @@ $(document).ready(function () {
         $(".carousel-people").hide();
         $(".carousel-indicators").hide();
         $(".main-nav1-item").show();
-        $(".svglogo").css("fill", "white");
+        $(".svglogo").css("fill", "black");
         $(".header-top-item").show();
         $("#carouselslider").hide();
         // full website hide
@@ -240,7 +240,7 @@ $(document).ready(function () {
         if (scroll > 100) {
             $(".open").css("fill", "black");
         } else {
-            $(".open").css("fill", "white");
+            $(".open").css("fill", "black");
         }
     })
 });
@@ -251,7 +251,7 @@ $(document).ready(function () {
         if (scroll > 500) {
             $(".svglogo").css("fill", "black");
         } else {
-            $(".svglogo").css("fill", "white");
+            $(".svglogo").css("fill", "black");
         }
     })
 });

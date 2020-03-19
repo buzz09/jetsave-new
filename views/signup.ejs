@@ -6,79 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
         integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" />
-        <!-- Latest compiled and minified CSS -->
-    
+        <!-- signup csssection -->
+    <link rel="stylesheet" href="./assets/css/signup.css">
     <title>Signup With JET-SAVE</title>
 </head>
-        <style>
-                #name, #username, #email, #phone, #password, #facebook, #instagram, #twitter, #youtube, #bio{
-                    width: 46%;
-                }
-                a{
-                    text-decoration: none;
-                    color: red;
-                }
-                * {
-	 box-sizing: border-box;
-}
-
- .back-button {
-    width: 51px;
-    height: 50px;
-    position: absolute;
-    top: 6%;
-    left: 4%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    border: red 1px solid;
-    overflow: hidden;
-    transition: background 0.3s ease;
-}
- .back-button.back .arrow-wrap {
-	 left: -50%;
-}
- .back-button:hover {
-	 background: red;
-}
- .back-button:hover .arrow-wrap span {
-	 background: #fff;
-}
- .back-button .arrow-wrap {
-	 display: block;
-	 position: absolute;
-	 height: 70%;
-	 width: 70%;
-	 top: 50%;
-	 left: 50%;
-	 transform: translate(-50%, -50%);
-	 transition: left 0.3s ease;
-}
- .back-button .arrow-wrap span {
-	 height: 1px;
-	 left: 0;
-	 top: 50%;
-	 background: red;
-	 position: absolute;
-	 display: block;
-	 transition: background 0.3s ease;
-}
- .back-button .arrow-wrap .arrow-part-1 {
-	 width: 100%;
-	 transform: translate(0, -50%);
-}
- .back-button .arrow-wrap .arrow-part-2 {
-	 width: 60%;
-	 transform: rotate(-45deg);
-	 transform-origin: 0 0;
-}
- .back-button .arrow-wrap .arrow-part-3 {
-	 width: 60%;
-	 transform: rotate(45deg);
-	 transform-origin: 0 0;
-}
- 
-        </style>
+    
 <body>
+
+    <!-- back button -->
        <a href="/login"> <div class="back-button">
             <div class="arrow-wrap">
                 <span class="arrow-part-1"></span>
@@ -86,6 +21,8 @@
                 <span class="arrow-part-3"></span>
             </div>
         </div></a>
+
+        <!-- form section  -->
             
         <form action="/travelogue-guest/insert" method="POST" enctype="multipart/form-data">
           <center>     <h2 style="color: red">Signup With Jetsave</h2>
