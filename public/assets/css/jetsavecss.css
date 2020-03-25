@@ -114,25 +114,23 @@ font-family: 'Roboto', sans-serif !important;
 	overflow: hidden;
 }
 
-/*body CSS*/
-/*body{
-	padding: 0px 5%;
-}*/
 
-/*FORM*/
-/*code for form:
-*/
-
+/* footer form input and button css */
 .formfill{
     width: 300px;
     height: 35px;
-    border-style: solid;
+	border-style: solid;
+	outline: none;
     border-width: 2px;
     border-color: #fff;
     border-radius: 5px;
     padding-left: 5%;
 }
 
+::placeholder {
+	font-size: 16px;
+	opacity: 1; /* Firefox */
+  }
 
 .formbutton{
 	background-color: #ef3a3a;
@@ -264,101 +262,6 @@ h6{
 }
 
 /*Body css finish*/
-
-/*Header section*/
-
-
-.header{
-	width: 100%;
-	height: 120px;
-	margin: 0 auto;
-	z-index: 1;
-	position: absolute;
-	top: 0.1%;
-}
-
-.on-top{
-	z-index: 5;
-}
-
-
-.header-wrapper{
-	max-width: 1280px;
-	padding: 15px 1%;
-	margin: 0 auto;
-}
-
-.svglogo{
-	fill: black;
-}
-
-.svglogo:hover .logojet{
-	fill:#ef3a3a;
-}
-
-.header-top{
-	position: absolute;
-    right: 10%;
-    margin-top: 2%;
-}
-
-.header-top-item{
-    width: 120px;
-    font-size: 13px;
-    color: #fff;
-    text-transform: none;
-    text-decoration: none;
-    line-height: 20px;
-    cursor: pointer;
-}
-
-.header-top a{
-	color: #fff;
-	display: inline-flex;
-	border-right: 2px solid #fff;
-	fill: #fff;
-}
-
-.top-link{
-	padding-left: 4%;
-	width: 100%;
-}
-
-/*Main Menu*/
-.main-nav {
-    position: absolute;
-    display: inline-flex;
-    vertical-align: bottom;
-    right: 7%;
-    border-bottom: 1px solid rgba(255,255,255,.2);
-    font-size: 0;
-    margin-top: 65px;
-}
-
-	/*Destination Hover CSS starts*/
-
-#desthover{
-
-	z-index: 0.9;
-	width: 0;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	height: 100vh;
-	overflow-x: hidden;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/CSS/img/Menu/ourdest.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-	transition-duration: 0.3s;
-
-}
-
-
-
-	/*Destination hover CSS ends*/
-
-
 
 /*.main-nav-item:hover{
 	border-bottom: 2px solid #ef3a3a;
@@ -962,30 +865,8 @@ p{
 }
 
 
-/*
-/*
-/*
-/*
-/*
+/* CONTACT US PAGE STARTS HERE */
 
-CONTACT US PAGE STARTS HERE
-
-*/
-
-.hibg {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/CSS/img/Contact Us Header Image.png');
-	background-size: 100%;
-	position: relative;
-    background-repeat:no-repeat;
-    height: 80vh;
-}
-.hibg1 {
-	background-image: url('/CSS/img/about.jpg');
-	position: relative;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 80vh;
-}
 .contact-hi{
 	position: absolute;
     right: 10%;
@@ -1008,8 +889,6 @@ CONTACT US PAGE STARTS HERE
 	padding-bottom: 200px;
 }
 
-
-
 .viscard {
 	display: block;
 	position: relative;
@@ -1020,33 +899,14 @@ CONTACT US PAGE STARTS HERE
 	margin-top: -3%;
 	background-color: #eae7dc;
 	padding: 3% 0;
-
 	-webkit-box-shadow: #6b6969 10px 15px 24px 2px;
   	-moz-box-shadow: #6b6969 10px 15px 24px 2px;
  	 box-shadow: #6b6969 10px 15px 24px 2px;
-
 
 }
 
 .viscard h3 a{
 	text-decoration: none;
-
-}
-
-.postbg{
-	background-image: url('/CSS/img/Contact Us Section 01 Image 01.png');
-	background-size: 100%;
-	position: relative;
-    background-repeat:no-repeat;
-    height: 100vh;
-}
-
-.postbg1 {
-	background-image: url('/img/topimage.jpg');
-	background-size: 100%;
-	position: relative;
-	background-repeat: no-repeat;
-	height: 100vh;
 }
 
 .postbox{
@@ -1100,21 +960,8 @@ CONTACT US PAGE STARTS HERE
 input{
 	border: none !important;
 }
-::-webkit-input-placeholder {
-   font-size: 32px;
-}
 
-:-moz-placeholder { /* Firefox 18- */
-      font-size: 32px;
-}
 
-::-moz-placeholder {  /* Firefox 19+ */
-      font-size: 32px;
-}
-
-:-ms-input-placeholder {
-      font-size: 32px;
-}
 
 .contactbutn{
 	align-items: center;
@@ -2068,13 +1915,8 @@ b{
         text-align: center;
         margin: 24px 0 12px 0;
         position: relative;
-    }
-
-::placeholder {
-  color: red;
-  font-size: 16px;
-  opacity: 1; /* Firefox */
-}
+	}
+	
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
  color: red;

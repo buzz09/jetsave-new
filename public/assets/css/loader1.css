@@ -4,26 +4,28 @@
     width: 100%;
     text-align: right;
     height: 100%;
-    position: absolute;
-    /* vertical-align: top; */
+    top: 0;
+    position: fixed;
+    vertical-align: top;
     /* left: 50%; */
     z-index: 1111111;
-    margin-top: -14%;
+   
 
     }
     .contentsmrt{
                 position: absolute;
     }
  .svg-calLoadersmrt {
-        width: 230px;
+    width: 230px;
     height: 230px;
+    position: absolute;
     margin-top: 14%;
     transform-origin: 115px 115px;
-    animation: 1.4s linear infinite loader-spin;
-    /* vertical-align: middle; */
-    /* text-align: center; */
-    /* align-self: center; */
-    margin-left: 42%;
+    vertical-align: middle !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: -57% !important;
+    animation: 1.4s linear 0s infinite normal none running loader-spin; 
 }
  .cal-loader__planesmrt {
      fill: red;

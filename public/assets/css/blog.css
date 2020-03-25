@@ -70,3 +70,58 @@ visibility: visible;
 opacity: 1;
 z-index: 9999;
 }
+
+.container1{
+    color: white;
+    font-size: 30px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.blogtext{
+    color: black;
+    margin-top: -10%;
+}
+
+.proftravmar{
+	margin:15px 0;
+	padding: 0 1%;
+	overflow: hidden;
+}
+
+
+.proftravinner .proftravblogimg{
+	width: 100%;
+	height: 71%;
+	border-radius: 19px;
+}
+
+.proftravinner:hover .proftrav-author{
+	display: block;
+	transform: translateY(-200%);
+	transition: 1.5s;
+}
+
+.proftravinner:hover .proftravlbo-author{
+	display: block;
+	transform: translateY(-20%);
+	transition: 1.5s;
+}
+
+.proftravinner:hover .proftrav-hover{
+	display: block;
+}
+
+
+.proftravlbo-author{
+	position: absolute;
+	bottom: 70px;
+	left: 30px;
+	border-radius: 50px;
+}
+
+#proftravlbo .proftravblogimg{
+	width: 92%;
+	height: 202px;
+	border-radius: 3px;
+}

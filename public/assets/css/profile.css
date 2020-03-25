@@ -1,0 +1,232 @@
+/*
+/*
+/*
+/*
+/*
+
+/*
+Profile page CSS starts here
+*/
+
+#memberprof {
+  margin-top: 5%;
+}
+
+.socicda {
+  fill: #333;
+}
+.icon {
+  color: #3facbd;
+}
+.icon:hover {
+  color: red;
+}
+#userimg {
+  padding: 0 3.7%;
+  height: 211px;
+  width: 236px;
+}
+.mekajet {
+  display: inline-flex;
+}
+.socialicons {
+  padding: 0 15%;
+  margin-top: 5%;
+  z-index: 99999;
+}
+
+.socic {
+  fill: #9a9a9a;
+  margin: 35%;
+}
+
+.signintext {
+  padding: 3% 4%;
+}
+
+.formbuttonprof {
+  background-color: #ef3a3a;
+  border-color: #ef3a3a;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  margin-left: 15%;
+  height: 35px;
+}
+
+.signbot {
+  padding: 0 20%;
+}
+
+.signbotform {
+  padding-left: 10%;
+}
+
+.formfillbot {
+  width: 300px;
+  height: 35px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #eae7dc;
+  border-radius: 5px;
+  background-color: #eae7dc;
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+.formtextbot {
+  color: black;
+  font-size: 24px;
+  margin-top: 1%;
+}
+
+.file {
+  width: 70px;
+  /* height: 50px !important; */
+  font-size: 10px;
+  margin: -24px 0 0px 22px;
+}
+
+.upload {
+  font-size: 32%;
+  margin-left: 33%;
+}
+
+.filterline {
+  margin-top: 50px;
+  min-height: 10px;
+  max-height: 50vh;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+}
+
+.filterlineinner {
+  padding: 2%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: black;
+}
+
+.borderright {
+  border-right: black 2px solid;
+}
+.filterdrop,
+.filterdrop {
+  padding: 2% 5%;
+  width: 200px;
+  background-color: #eae7dc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border-width: 0px;
+  -webkit-vertical-align: top;
+  -moz-vertical-align: top;
+  vertical-align: top;
+}
+
+.proftrav {
+  min-height: 100px;
+}
+
+.proftravl1 {
+  height: 295px;
+}
+
+.proftravl2 {
+  height: 196px;
+}
+
+.proftrav-author {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.proftophead {
+  text-align: left;
+  color: #ef3a3a;
+}
+
+.profbottomhead {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+/*Blog bottom styling*/
+
+#proftravlbo {
+  height: 196px;
+}
+
+#blogbottom .proftophead {
+  margin-top: 2%;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #ef3a3a;
+}
+
+#blogbottom .profbottomhead {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+/*blogbottom ends*/
+
+.proftrav-hover {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+#blogbottom {
+  margin-top: 100px;
+}
+
+/*<!-- testing code before puttin it in the place -->*/
+
+/*
+/*
+/*
+/*
+profile-member page style
+*/
+.memberlin {
+  padding-top: 4%;
+}
+
+#membername {
+  padding: 0px;
+  color: black;
+}
+
+#username {
+  color: red;
+}
+
+.formbuttontrav {
+  border-radius: 50px;
+  text-align: center;
+  height: 40px;
+  font-size: 24px;
+}
+
+.memberbio {
+  margin-top: 24px;
+}
+
+.biotext {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.editsvg {
+  padding: 2%;
+  right: -97px;
+}

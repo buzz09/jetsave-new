@@ -1,0 +1,592 @@
+/* Itinerary page styling */
+
+.iticon {
+  padding-left: 3% !important;
+}
+.itbg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0,
+      rgba(0, 0, 0, 0.5) 99%
+    ),
+    url("/CSS/img/Jaipur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+
+.itbg {
+  padding-top: 25%;
+}
+.itibgh1 h1 {
+  font-size: 2rem;
+  padding-right: 0px;
+  margin-left: 45px;
+}
+
+#itimenu {
+  width: auto;
+  z-index: 1111;
+}
+
+.sticky {
+  display: block !important;
+  top: 0 !important;
+  z-index: 2;
+  position: fixed;
+  margin-top: 0% !important;
+  background-color: #ececec;
+}
+
+#itimenu h1 {
+  font-size: 24px;
+}
+
+#onscrollhead {
+  /*	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('E:/ANKIT/Time Trailblazer Private Limited/Brands/Buzz09/Clients/Jetsave India Tours/Website Development Code and Logins/Website Versions/V1/Jetsave website/CSS/img/Jaipur.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: fixed;*/
+  display: none;
+  width: 100%;
+  padding: 10% 0;
+  z-index: 1;
+  /*  	margin-bottom: 97.56px;*/
+}
+
+.itimenuinner {
+  width: fit-content;
+}
+
+.itimenuinner h4 {
+  width: 100%;
+}
+.itimenuinner a {
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.itimenuinneritem {
+  margin-top: 8%;
+}
+
+.faicon {
+  padding-left: 15px;
+  align-self: center;
+}
+.rightsvg {
+  margin: 28%;
+  display: block;
+  margin-bottom: 50%;
+  fill: #9e9e9e;
+}
+
+.rightsvg:hover {
+  fill: #ffffff;
+}
+
+.itisvg {
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+.formbuttoniti {
+  background-color: #ffffff;
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+}
+
+.leftmenufix {
+  position: fixed;
+  display: block;
+  top: 25%;
+  left: 0;
+  z-index: 0;
+  padding: 2% 0px;
+  height: fit-content;
+  width: 250px;
+  background-color: #fff;
+  border-right: 1px solid #eee;
+  display: block;
+  z-index: 500;
+  display: noe;
+  transform: translateX(-75%);
+  box-shadow: 0px 0px 8px 2px #37393a;
+}
+
+.leftmenufix:hover {
+  transform: translateX(0%);
+  transition: 1s transform cubic-bezier(0.24, -0.36, 0.22, 0.88);
+}
+
+.leftmenufix i {
+  font-size: 32px;
+  color: #ef3a3a;
+}
+
+.leftmenufixitem {
+  border-right: #000 2px solid;
+  width: 100%;
+  margin-right: 0px;
+}
+
+#itinmap {
+  padding-top: 20px;
+}
+
+.itinovercont {
+  border-right: thin solid grey;
+  margin: 2% 0;
+}
+
+.itinovercontinner h2 {
+  padding-left: 0px !important;
+}
+
+.itinovercontinner {
+  margin: 3% 0;
+}
+
+.itinovercontinner p {
+  padding-left: 20px;
+}
+
+/*plane fly animation css*/
+
+.jframe {
+  width: 500px;
+  height: 130px;
+  margin: 15% auto 0;
+  position: relative;
+  width: 100%;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  align-self: end;
+}
+
+.slower {
+  fill: #aebec1;
+}
+
+.slowest {
+  fill: #9ed8f3;
+}
+
+.distant {
+  fill: #cccccc;
+}
+
+.slow {
+  fill: #aaaaaa;
+}
+
+.super-slow {
+  fill: #cdc8da;
+}
+
+/**
+ * Paper Plane
+ */
+/*Paper Plane: Container*/
+.jplane-container {
+  width: 200px;
+  margin: 0px 30%;
+  z-index: 3;
+}
+/*Paper Plane: Image*/
+
+.jtopanime {
+  position: absolute;
+}
+
+.plane {
+  width: 100%;
+  height: 60px;
+}
+
+/*Paper Plane: Animation*/
+.jplane-container {
+  -webkit-animation: paper-plane-scoping 2s alternate infinite;
+  -moz-animation: paper-plane-scoping 2s alternate infinite;
+  animation: paper-plane-scoping 2s alternate infinite;
+
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes paper-plane-scoping {
+  0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
+
+.plane {
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+
+  -webkit-animation: paper-plane-soaring 4s forwards infinite;
+  -moz-animation: paper-plane-soaring 4s forwards infinite;
+  animation: paper-plane-soaring 4s forwards infinite;
+}
+@-webkit-keyframes paper-plane-soaring {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  50% {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  60% {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  70% {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+/**
+ * Clouds
+ */
+.jclouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.jcloud {
+  position: absolute;
+  top: 20%;
+  width: 300px;
+  right: 0;
+  opacity: 1;
+}
+
+.jcloud.front {
+  z-index: 9;
+}
+
+.jcloud.distant {
+  z-index: 1;
+}
+
+.jcloud.background {
+  z-index: 1;
+}
+
+/*Cloud Sizing*/
+.jcloud.smaller {
+  margin-right: 400px;
+  width: 100px;
+  margin-top: 50px;
+}
+
+.jcloud.small {
+  margin-right: 200px;
+  width: 150px;
+}
+
+.jcloud.big {
+  width: 500px;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+
+.jcloud.massive {
+  width: 600px;
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+/*Cloud: Animation*/
+.jcloud {
+  -webkit-animation-name: cloud-movement;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+
+  -moz-animation-name: cloud-movement;
+  -moz-animation-timing-function: linear;
+  -moz-animation-direction: forwards;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 8s;
+
+  animation-name: cloud-movement;
+  animation-timing-function: linear;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+.slow {
+  -webkit-animation-duration: 9.2s;
+  -moz-animation-duration: 9.2s;
+  animation-duration: 9.2s;
+}
+
+.slower {
+  -webkit-animation-duration: 11.2s;
+  -moz-animation-duration: 11.2s;
+  animation-duration: 11.2s;
+}
+
+.slowest {
+  -webkit-animation-duration: 13.5s;
+  -moz-animation-duration: 13.5s;
+  animation-duration: 13.5s;
+}
+
+.super-slow {
+  -webkit-animation-duration: 20.5s;
+  -moz-animation-duration: 20.5s;
+  animation-duration: 20.5s;
+}
+
+@-webkit-keyframes cloud-movement {
+  0% {
+    opacity: 0.1;
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+  10% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-1000px);
+    -moz-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+}
+
+/*CSS for Itinerary main starts here*/
+
+.jtimelineco {
+  padding-left: 5% !important;
+}
+
+.jtimeline-item {
+  padding: 0.75em 2em;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.hightext {
+  align-self: center;
+}
+
+.jtimeline-item h1 {
+  font-size: 2rem;
+}
+
+.jtimeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 1em;
+  font-weight: bold;
+  top: 0em;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 6rem;
+  color: #e4e4e4;
+  z-index: -1;
+}
+.family {
+  margin-top: 5%;
+  text-align: center;
+}
+.jtimeline-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1.5em;
+  position: absolute;
+  left: -6px;
+  content: "";
+  border: 2px solid rgba(239, 58, 58, 1);
+  background: #ef3a3a;
+}
+.jtimeline-item:last-child {
+  -o-border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 60%,
+      rgba(0, 0, 0, 0)
+    )
+    1 100%;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 60%,
+      rgba(0, 0, 0, 0)
+    )
+    1 100%;
+}
+
+.inclwidth {
+  width: 33%;
+  padding-left: 5%;
+  margin: 2% 0;
+  align-items: baseline;
+  color: #5f5f5f;
+}
+
+.hightextinner {
+  margin: 5% 0;
+}
+
+/*Tour Inclusions*/
+.tourinclubg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/CSS/img/Menu/ourdest.jpg");
+  width: 103%;
+  margin: 4% 0 4% -3%;
+}
+
+.tourinclusec {
+  text-align: center;
+  padding: 3% 5%;
+  border-top: thin solid grey;
+  border-bottom: thin solid grey;
+}
+
+.tourinclusec h2 {
+  margin: 5% 0;
+}
+
+.tourinclusec i {
+  font-size: 56px;
+  margin-bottom: 10%;
+  color: #ef3a3a;
+}
+
+.tourinclusec h3,
+.tourinclusec p {
+  color: white;
+}
+
+.itinovercontinnerimg {
+  height: 350px;
+  overflow-y: hidden;
+}
+
+.itinovercontinnertxt {
+  align-self: center;
+}
+
+.itinovercontinner img {
+  width: 90%;
+  height: auto;
+  overflow-y: hidden;
+}
+
+.itinovercontinnertxt li {
+  font-size: 1.25rem;
+  list-style: none;
+}
+
+.sidebarbox {
+  border: 2px solid grey;
+  background-color: #ffffffd4;
+  margin: 10%;
+  margin-left: 10% !important;
+  padding: 3%;
+  border-style: solid;
+  border-radius: 14px;
+  width: 75%;
+  color: black;
+}
+
+.sidebarbox i {
+  font-size: 120px;
+  margin: 5% 0;
+  color: #ef3a3a;
+}
+
+.tttipsec {
+  width: 100%;
+  padding: 2% 10%;
+}
+
+.tttipsec h2 {
+  text-align: center;
+  margin: 4%;
+  width: 100%;
+}
+
+.tttipsec ul {
+  list-style-type: circle;
+}
+
+.tttipsec i {
+  font-size: 8rem;
+  margin-left: 30%;
+  margin-top: 6%;
+}
+/*Compass*/
+/*
+*/
+b {
+  color: black;
+}
+
+.besttvcontinner {
+  height: auto;
+  overflow-y: hidden;
+  margin: 4% 0;
+}
+
+.besttvcontinnerimg {
+  height: 400px;
+}
+
+.besttvcontinnertxt {
+  align-self: center;
+}

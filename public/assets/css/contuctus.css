@@ -1,0 +1,149 @@
+.hibg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/CSS/img/Contact Us Header Image.png');
+	background-size: 100%;
+	position: relative;
+    background-repeat:no-repeat;
+    height: 80vh;
+}
+.hibg1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	url('/CSS/img/about.jpg');
+	background-size: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+.contact-hi{
+	position: absolute;
+    right: 10%;
+    top: 72%;
+    transform: rotate(-10deg);
+}
+
+.contact-shy{
+	right: 20%;
+    position: absolute;
+    top: 70%;
+    transform: rotate(-10deg);
+}
+
+.bgvisjetsave{
+	background-image: url("/CSS/img/Home Page/Jetsave.svg");
+	background-repeat: no-repeat;
+	background-size: 55% auto;
+    background-position: 110% 20%;
+	padding-bottom: 200px;
+}
+
+
+
+.viscard {
+	display: block;
+	position: relative;
+	text-align: center;
+	border-radius: 5px;
+	height: 300px;
+	margin-left: 15%;
+	margin-top: -3%;
+	background-color: #eae7dc;
+	padding: 3% 0;
+
+	-webkit-box-shadow: #6b6969 10px 15px 24px 2px;
+  	-moz-box-shadow: #6b6969 10px 15px 24px 2px;
+ 	 box-shadow: #6b6969 10px 15px 24px 2px;
+
+
+}
+
+.viscard h3 a{
+	text-decoration: none;
+
+}
+
+.postbg{
+	background-image: url('/CSS/img/Contact Us Section 01 Image 01.png');
+	background-size: 100%;
+	position: relative;
+    background-repeat:no-repeat;
+    height: 100vh;
+}
+
+.postbg1 {
+	background-image: url('/img/topimage.jpg');
+	background-size: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.postbox{
+	float: right;
+	margin-top: -40%;
+	margin-right: 30%;
+	position: relative;
+}
+.locationborder{
+	margin-left: 30%;
+	margin-top: 100px;
+	font-family: decalled-script;
+}
+
+.locationborder:after{
+    content:' ';
+    position: absolute;
+    display:block;
+    width: 120px;
+    margin: 0 0.5%;
+    border: 3px solid #ffe251;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+/*    box-shadow:inset 0 1px 1px #ffe251;*/
+
+}
+
+.locationtext{
+	margin-left: 40%;
+	margin-top: 32px;
+}
+
+
+.contactform{
+	margin-top: 200px;
+}
+
+.cpimg{
+	margin-left: 30%;
+}
+
+.form-left{
+	padding-right: 20%;
+}
+
+.form-group{
+	border-bottom: #ef3a3a 2px solid !important;
+}
+
+input{
+	border: none !important;
+}
+::-webkit-input-placeholder {
+   font-size: 32px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+      font-size: 32px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+      font-size: 32px;
+}
+
+:-ms-input-placeholder {
+      font-size: 32px;
+}
+
+.contactbutn{
+	align-items: center;
+}
+
