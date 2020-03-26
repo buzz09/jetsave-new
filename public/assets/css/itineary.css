@@ -556,7 +556,7 @@ svg {
 }
 
 .tttipsec h2 {
-  text-align: center;
+  text-align: center; 
   margin: 4%;
   width: 100%;
 }
@@ -570,9 +570,7 @@ svg {
   margin-left: 30%;
   margin-top: 6%;
 }
-/*Compass*/
-/*
-*/
+
 b {
   color: black;
 }

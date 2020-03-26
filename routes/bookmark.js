@@ -4,7 +4,7 @@ var router = express.Router();
 var cookieSession = require('cookie-session');
 var upload = require("./multer");
 var pool = require("./pool");
-let table = "profile_bookmark";
+let table = "bookmark";
 
 router.get("/", (req, res) => {
     if (req.session.id) {
@@ -14,7 +14,7 @@ router.get("/", (req, res) => {
         var query2 = `select count(id) as totalblog from editblog where userid = "${req.session.id}";`
         pool.query(query + query1 + query2, (err, result) => {
             if (err) throw err;
-            else res.render(`profile_bookmark`, { result: result });
+            else res.render(`bookmark`, { result: result });
             // else res.json(result)
             console.log(result)
         })

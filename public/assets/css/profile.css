@@ -1,12 +1,5 @@
-/*
-/*
-/*
-/*
-/*
 
-/*
-Profile page CSS starts here
-*/
+/* Profile page CSS starts here */
 
 #memberprof {
   margin-top: 5%;
@@ -210,11 +203,19 @@ profile-member page style
   color: red;
 }
 
-.formbuttontrav {
-  border-radius: 50px;
-  text-align: center;
-  height: 40px;
-  font-size: 24px;
+.editsvg {
+  position: relative;
+  margin-left: 0%;
+  margin-top: 11%;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button a :hover {
+  color: white;
 }
 
 .memberbio {

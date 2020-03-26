@@ -156,9 +156,9 @@
                     <div class="row memberbio">
                         <p class="jetsavered biotext">Bio...</p>
                         <p><%= result[1][0].bio %></p>
+                        <a href="/edittravelogue"><input type="submit" value="Add New Travelogue"
+                                class="formbuttontrav"></a>
                     </div>
-                    <a href="/edittravelogue"><div class="btn btn-danger button">Add New Blog</div></a>
-
 
                 </div>
                 <!-- edit profile area -->
@@ -183,11 +183,11 @@
         <div id="blogfilter" class="container-fluid full-width">
             <div class="row full-width filterline">
                 <div class="col-sm-6 col-md-3 filterlineinner">
-                    <h3 class="borderright jetsave-josefinbold nomar">My Travelogue</h3>
+                    <h3 class="borderright jetsave-josefinbold nomar"><a href="my-profile">My Travelogue</a></h3>
                 </div>
                 <div class="col-sm-6 col-md-3 filterlineinner">
                     <!-- check bookmark -->
-                    <h3 class="borderright jetsave-josefinbold nomar"><a href="/bookmark">Bookmarks</a></h3>
+                    <h3 class="borderright jetsave-josefinbold nomar">Bookmarks</h3>
                 </div>
                 <div class="col-sm-6 col-md-3 filterlineinner">
                     <!-- data from myprofile.js -->
@@ -238,7 +238,7 @@
 
         <% if(!result[0].length) { %>
 
-        <h2 class="text-center" style="color:black; margin-top:5%; margin-bottom:5%">No Blog Yet
+        <h2 class="text-center" style="color:black; margin-top:5%; margin-bottom:5%">No BookMark Yet
             <img src="https://cdn.dribbble.com/users/2046015/screenshots/6015680/08_404.gif" width="162px">
         </h2>
         <% } %>
