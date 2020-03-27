@@ -235,6 +235,14 @@ h6{
 	margin: 10px;
 }
 
+.icon  {
+	color :white;
+}
+
+.icon :hover {
+	color: red;
+}
+
 
 .colmar{
 	margin: 0px 4% 0px 8%;

@@ -670,6 +670,14 @@ a.blogh{
 	z-index: 99999;
 }
 
+.icon  {
+	color :white;
+}
+
+.icon :hover {
+	color: red;
+}
+
 .socialicons li a {
 	margin: 10px;
 }

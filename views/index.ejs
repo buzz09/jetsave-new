@@ -709,7 +709,6 @@
 
 					</div>
 
-
 					<div class="col-sm-4 textpad smrttpmr">
 
 						<h2> Trip Additions </h2>
@@ -727,10 +726,11 @@
 					</div>
 				</div>
 
+				<div class="results"></div>
 
 				<div class="buttons">
 					<input type="button" class="btn btn-danger clone" value="Add Another Location" style="    margin-left: 39%;
-           margin-top: 2%;">
+    margin-top: 2%;">
 
 
 					</form>
@@ -738,6 +738,8 @@
 						style="margin-left: 1%">
 				</div>
 			</div>
+
+
 
 			<!--New Form End-->
 
@@ -1337,9 +1339,11 @@
 										</li>
 		
 									</ol>
-									<h2 class="topmargin">VISIT US ON : <a class="icon"
+									<h2 class="topmargin">VISIT US ON : 
+										<a class="icon"
 											href="https://www.facebook.com/jetsaveindia/"><i
-												class="fab fa-facebook"></i></a> <a class="icon"
+												class="fab fa-facebook"></i></a> 
+										<a class="icon"
 											href="https://www.instagram.com/jetsaveindia/?hl=en"><i
 												class="fab fa-instagram"></i></a>
 		
@@ -1347,12 +1351,7 @@
 												class="fab fa-twitter"></i></a> <a class="icon              "
 											href="https://www.youtube.com/channel/UCopv8-9C0oPGZEXEVyt9SMw/videos"><i
 												class="fab fa-youtube"></i></a> </h2>
-									<ol class="d-inline-flex socialicons">
-		
-		
-		
-		
-									</ol>
+									
 								</div>
 							</div>
 							<div id="newsletter" class="row full-width justify-content-center">
@@ -1782,16 +1781,36 @@
 
 	</div>
 
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
+
+	<script>
+		$('#smrtform').on('click', '.smrtremove', function () {
+			$('.smrtremove').closest('#smrtform').find('.bgjetsave').not(':first').last().remove();
+		});
+		$('#smrtform').on('click', '.clone', function () {
+			$('.clone').closest('#smrtform').find('.bgjetsave').first().clone().appendTo('.results');
+		});
+	</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Custom JS file -->
+<script type="text/javascript" src="JetsaveStyle.js"></script>
+<!-- script from code pen for testing -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.jsd"></script>
 
 
-</body>
+
+</body>	 
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -1831,12 +1850,12 @@
 </script>
 
 
-<script lang="javascript">
+<script>
 
-
-populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
+	populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
 	populateCountries("country2");
 	populateCountries("country2");
-	</script>
+
+</script>
 
 </html>
