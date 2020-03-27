@@ -44,7 +44,44 @@
         }
 
         
+        .overlay-pop {
+            position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+        }
 
+        .popup {
+            margin: 70px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            width: 50%;
+            height: 55%;
+            position: relative;
+        }
+
+        .popup .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            transition: all 200ms;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333 !important;
+        }
+
+        .overlay-pop:target {
+            visibility: visible;
+            opacity: 1;
+            z-index: 9999;
+        }
 
         /*form styling ends*/
 
@@ -54,13 +91,13 @@
             height: 120%;
             width: 0%;
             position: fixed;
-            z-index: 1;
+            z-index: 1 !important;
             top: -20px;
             left: 0;
             overflow-x: hidden;
             transition: 0.5s;
             margin-top: 0px;
-            z-index: 1;
+            z-index: 1 !important;
             background-image: url('/CSS/img/destination1.png');
             background-repeat: no-repeat;
             background-size: cover;
@@ -814,7 +851,7 @@
             height: 0%;
             width: 100%;
             position: fixed;
-            z-index: 1;
+            z-index: 1 !important;
             top: 0;
             left: 0;
             background-image: url("/img/artical.png");
@@ -846,9 +883,10 @@
         .overlay a:focus {
             color: #f1f1f1;
         }
+
 .mekajet{
-    display: flex;
-    margin-left: 15%;
+    display: flex !important;
+    margin-left: 0 !important;
 }
         .overlay1 .closebtn1 {
             position: absolute;
@@ -922,9 +960,9 @@
        
         .container-activity {
             text-align: center;
-            margin-top: 120px;
+            margin-top: 120px !important;
             
-            max-width: 100%;
+            
         }
 
         .activity ul li {
