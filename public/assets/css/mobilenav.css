@@ -25,11 +25,28 @@
   .white {
     font-size: 1.5em;
   }
-  .webcontainer {
+  .webcontainer, .ftrditi1 {
     display: none !important;
   }
   .mobilecontainer {
     display: block !important;
+  }
+  .daytextleft {
+    position: absolute;
+    margin-top: -56%;
+    color: white;
+  }
+  .daytextright{
+    position: absolute;
+    margin-top: -56%;
+    color: white;
+  }
+  .imgleftsecinner img {
+    position: relative;
+    height: 100% !important;
+    width: 100% !important;
+    transform: translateX(1%);
+    border-radius: 2px;
   }
   .svgimage {
     width: 232% !important;
@@ -66,5 +83,11 @@
   }
   .mobile-center {
     margin-top: -8% !important;
+  }
+
+  .smrtremove {
+    position: relative;
+    top: -61em;
+    left: 92%;
   }
 }
