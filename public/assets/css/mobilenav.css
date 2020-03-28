@@ -18,6 +18,13 @@
   .header {
     display: none !important;
   }
+
+  .about-jetsave {
+    margin-top: -39%;
+  }
+  .white {
+    font-size: 1.5em;
+  }
   .webcontainer {
     display: none !important;
   }
@@ -54,6 +61,10 @@
     display: none;
   }
   .mobiletext {
-    font-size: 23px;
+    font-size: 23px !important;
+    
+  }
+  .mobile-center {
+    margin-top: -8% !important;
   }
 }
