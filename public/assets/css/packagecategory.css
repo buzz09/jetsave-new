@@ -1,4 +1,31 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Parisienne|Stalemate');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+@font-face {
+font-family: 'josefin_sansbold';
+src: url('/CSS/fonts/josefinsans-bold-webfont.woff2') format('woff2'),
+	 url('/CSS/fonts/josefinsans-bold-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+
+font-family: 'decalled_scriptregular';
+src: url('/CSS/fonts/decalledscript-regular-webfont.woff2') format('woff2'),
+	 url('/CSS/fonts/decalledscript-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+
+.bottomhead {
+	font-family: 'Parisienne';
+}
 .raftingbg1,.raftingbg2{
 	position: fixed;
 	fill: #c1c1c1;
