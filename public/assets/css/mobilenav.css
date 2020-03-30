@@ -30,8 +30,11 @@
   .mobile-text {
     display: block !important;
   }
-
+  .mobile-text {
+    margin-top: 30%;
+  }
   .mobile-about {
+    position: relative;
     margin-top: -122%;
   }
 
