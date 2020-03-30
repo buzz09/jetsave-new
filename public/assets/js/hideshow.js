@@ -1,4 +1,7 @@
 
+    $(window).on("load", function () {
+        $(".loadersmrt").fadeOut("slow");
+    });
 
 // Google Analysits Tag
 
@@ -339,9 +342,6 @@ $(document).ready(function () {
 
 
 
-    $(window).on("load", function () {
-        $(".loadersmrt").fadeOut("slow");
-    });
 
 		
 
