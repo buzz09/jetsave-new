@@ -142,6 +142,10 @@ router.get("/reasons-to-visit-seychelles-with-your-loved-ones", (req, res) => {
 
 router.get("/trekking-and-hiking-tips", (req, res) => {
   res.render("blog/trekking-and-hiking-tips");
+});
+
+router.get("/top-10-countries-that-indians-can-travel-to-without-visa", (req, res) => {
+  res.render("blog/top-10-countries-that-indians-can-travel-to-without-visa");
 })
 
 
