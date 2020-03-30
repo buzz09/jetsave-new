@@ -254,3 +254,25 @@
 p{
 	color: black;
 }
+
+.daytextleft {
+	color: #ffffff;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    padding: 18px 10px;
+    background-color: #ef3a3a5e;
+    border-radius: 21px;
+    font-size: 16px;
+}
+
+.daytextright {
+	color: #ffffff;
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    padding: 18px 10px;
+    background-color: #ef3a3a5e;
+    border-radius: 21px;
+    font-size: 16px;
+}
