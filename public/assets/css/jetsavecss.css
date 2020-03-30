@@ -353,6 +353,15 @@ a:hover {
     margin-left: 20%;
 }
 
+.besttvcontinnerimg {
+  height: 500px;
+ 
+}
+
+.nomar, .psmall {
+  color: white;
+}
+
 /* Itinerary page styling */
 
 .iticon{
