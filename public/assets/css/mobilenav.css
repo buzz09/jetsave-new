@@ -31,16 +31,7 @@
   .mobilecontainer {
     display: block !important;
   }
-  .daytextleft {
-    position: absolute;
-    margin-top: -56%;
-    color: white;
-  }
-  .daytextright{
-    position: absolute;
-    margin-top: -56%;
-    color: white;
-  }
+
   .imgleftsecinner img {
     position: relative;
     height: 100% !important;
