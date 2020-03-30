@@ -9,6 +9,11 @@
   display: none;
 }
 
+
+#hiking-mobile{
+  display: none;
+}
+
 .navbar-toggler {
   color: rgba(255, 255, 255, 0.5) !important;
   border-color: rgba(255, 0, 0, 0.1) !important;
@@ -34,11 +39,61 @@
 
   .imgleftsecinner img {
     position: relative;
-    height: 100% !important;
+    height: 220px;
     width: 100% !important;
     transform: translateX(1%);
     border-radius: 2px;
   }
+
+  .imgrightsecinner img {
+    position: relative;
+    height: 220px;
+    width: 100% !important;
+    transform: translateX(1%);
+    border-radius: 2px;
+  }
+
+  #hiking {
+    display: none;
+  }
+
+  #hiking-mobile {
+    display: block;
+  }
+
+  .imgleftsecinnertext h3 {
+    margin-left: 4%;
+    font-size: 1em;
+    margin-top: 4%;
+  }
+
+  .imgleftsecinnertext p {
+    text-align: justify;
+  }
+
+  .daytextleft {
+    color: #ffffff;
+    position: absolute;
+    top: 7px;
+    left: 37px;
+    padding: 18px 10px;
+    background-color: #ef3a3a5e;
+    border-radius: 21px;
+    font-size: 16px;
+  }
+
+  .formbuttonbt {
+    margin-left: 21%;
+  }
+
+  .bottomhead {
+    font-size:30px !important;
+  }
+
+  .headvity h2 {
+    font-size: 22px;
+  }
+
   .svgimage {
     width: 232% !important;
     margin-top: 46px;

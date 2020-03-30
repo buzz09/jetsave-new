@@ -133,6 +133,16 @@ router.get("/how-to-fly-cheap-to-europe-in-2020-by-jetsave-india", (req, res) =>
 
 router.get("/beaches-in-goa-to-visit-in-2020", (req, res) => {
   res.render("blog/beaches-in-goa-to-visit-in-2020");
+});
+
+
+router.get("/reasons-to-visit-seychelles-with-your-loved-ones", (req, res) => {
+  res.render("blog/reasons-to-visit-seychelles-with-your-loved-ones");
+});
+
+router.get("/trekking-and-hiking-tips", (req, res) => {
+  res.render("blog/trekking-and-hiking-tips");
 })
+
 
 module.exports = router;

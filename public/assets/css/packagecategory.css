@@ -212,7 +212,7 @@
 
 .imgleftsecinner img{
 	position: relative;
-	height: 100%;
+	height: 350px;
 	width: 100%;
 	transform: translateX(-2%);
 	border-radius: 25px;
@@ -221,7 +221,7 @@
 
 .imgrightsecinner img{
 	position: relative;
-	height: 100%;
+	height: 350px;
 	width: 100%;
 	transform: translateX(2%);
 	border-radius: 25px;
