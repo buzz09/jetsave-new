@@ -1,10 +1,32 @@
     @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
+	@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Parisienne|Stalemate');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+@font-face {
+    font-family: 'josefin_sansbold';
+    src: url('/CSS/fonts/josefinsans-bold-webfont.woff2') format('woff2'),
+         url('/CSS/fonts/josefinsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	
+    font-family: 'decalled_scriptregular';
+    src: url('/CSS/fonts/decalledscript-regular-webfont.woff2') format('woff2'),
+         url('/CSS/fonts/decalledscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 	/* Banner Image of About Page CSS */
 
 	.hibg {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/CSS/img/Contact Us Header Image.png');
+		background-image:  url('/CSS/img/Contact Us Header Image.png');
 		background-size: 100%;
 		position: relative;
 		background-repeat:no-repeat;
@@ -26,6 +48,18 @@
 		margin-left: 10%;
 	}
 
+	.abttatext p {
+		text-align: justify;
+	}
+
+
+	.about-text {
+		margin-left: 37%;
+	 padding: 3% 0 0 7%
+	}
+	.mobile-text {
+		text-align: center;
+	}
 	/* about TEXT CSS */
 	.abttatext{
 		Margin: 5% 5%;
@@ -46,14 +80,16 @@
 	.col-md-6 {
 		text-align: center;
 		padding-bottom: 50px;
-		border-right: 1px dashed black;
+		
+	}
+
+	.bottomhead {
+		font-family: 'Parisienne';
+		font-size: 75px;
 	}
 
 	/* bootstrap class of clild css */
 
-	.col-md-6:last-child {
-		border-right: 1px solid black;
-	}
 
 	/* counter css */
 
@@ -61,6 +97,10 @@
 		animation-duration: 1s;
 		animation-delay: 0s;
 		color: black;
+	}
+
+	.colpad p {
+		text-align: justify;
 	}
 
 	/* about page our presence css */

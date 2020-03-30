@@ -13,6 +13,10 @@
   display: none;
 }
 
+.mobile-text {
+  display: none;
+}
+
 .navbar-toggler {
   color: rgba(255, 255, 255, 0.5) !important;
   border-color: rgba(255, 0, 0, 0.1) !important;
@@ -20,6 +24,28 @@
 
 @media only screen and (max-width: 600px) {
   .header {
+    display: none !important;
+  }
+
+  .mobile-text {
+    display: block !important;
+  }
+
+  .mobile-about {
+    margin-top: -122%;
+  }
+
+  .about-text {
+    margin-left: 17%;
+    padding: 3% 0 0 7%;
+    font-size: 33px;
+  }
+
+  .mobile-office {
+    margin-top: -141%;
+  }
+
+  .abtta {
     display: none !important;
   }
 
