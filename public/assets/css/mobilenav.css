@@ -37,7 +37,13 @@
     position: relative;
     margin-top: -122%;
   }
-
+.hibg1 {
+  background-image: url(/CSS/img/about.jpg);
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 104vh;
+}
   .about-text {
     margin-left: 17%;
     padding: 3% 0 0 7%;
