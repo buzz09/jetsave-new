@@ -27,6 +27,16 @@
     display: none !important;
   }
 
+
+  
+.inclwidth {
+   width: 33% !important; 
+    padding-left: 6% !important;
+    margin: 4% 26px !important;
+    align-items: baseline !important;
+    color: #5f5f5f !important;
+}
+
   .mobile-text {
     display: block !important;
   }
