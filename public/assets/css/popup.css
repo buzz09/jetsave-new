@@ -5,7 +5,6 @@
 
 #contactForm { 
   display: none;
-  
   padding: 2em;
   width: 400px;
   text-align: center;
@@ -14,7 +13,7 @@
   top:50%;
   left:50%;
   z-index: 99;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%) !important;
   -webkit-transform: translate(-50%,-50%)
   
 }
@@ -29,7 +28,6 @@
   font-family: inherit; 
   text-transform: inherit; 
   font-size: inherit;
-  
   display: block; 
   width: 280px; 
   padding: .4em;

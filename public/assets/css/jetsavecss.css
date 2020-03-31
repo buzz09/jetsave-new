@@ -107,6 +107,9 @@ font-family: 'Roboto', sans-serif !important;
 	overflow: hidden;
 }
 
+p {
+  text-align: justify !important;
+}
 
 /* footer form input and button css */
 .formfill{
@@ -122,7 +125,7 @@ font-family: 'Roboto', sans-serif !important;
 
 ::placeholder {
 	font-size: 16px;
-	opacity: 1; /* Firefox */
+	
   }
 
 .formbutton{
@@ -397,6 +400,11 @@ a:hover {
     position: fixed;
     margin-top: 0% !important;
 	background-color: #ececec;
+}
+
+.subhead {
+  margin-left: 40%;
+  color: red;
 }
 
 #itimenu h1{
