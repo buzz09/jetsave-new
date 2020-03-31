@@ -113,6 +113,10 @@
 		  font-size: 45px;
 	}
 
+	.tophead {
+		font-size: 24px !important;
+	}
+
 	.textcontent1 {
 		color: black;
 		font-size: 25px;

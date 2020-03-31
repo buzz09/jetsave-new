@@ -14,7 +14,7 @@ h1,p{
   width: 100%;
   min-height: 100%;
 }
-
+    
 .container{
 	position: relative;
 	text-align: center;
@@ -44,5 +44,9 @@ background: white;
     padding: 2% 0;
     font-size: 30px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.detail-h h3:hover {
+        color: black;
 }
 

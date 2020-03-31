@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jetsave V1</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Jetsave Blogs</title>
+    <link rel="icon" href="Menu/1.png" type="image/jpg" size="36*36">
+    <link rel="stylesheet" type="text/css" href="./assets/css/jetsavecss.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/profile.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <style type="text/css">
+     
+     .top {
+  background-image: url("/images/<%= result[0].blogimage %>");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 102%;
+  margin: -2%;
+  background-position: center;
+  position: absolute;
+}
+
+.top h1 {
+        position: absolute;
+    margin-top: 18%;
+    margin-left: 12%;
+    color: white;
+}
+
+    </style>
+</head>
+
+<body>
+
+        <!-- loading Component -->
+	<%- include('partials/loading') %>
+
+
+    <!-- Header Component -->
+	<%- include('partials/header') %>
+
+
+            <div class="top">
+             
+                <h1 class="blogtext"><%= result[0].blogtext %></h1>
+              
+
+        
+            <div class="container">
+                <div class="blog">
+                    <p>
+                        <b><%= result[0].tripexprience %></b>
+                    </p>
+
+                    <img src="/images/<%= result[0].blogimage %>" height="300px" width="auto">
+                    <p>
+                        <b><%= result[0].sharejourny %></b>
+                    </p>
+                    <p>
+                        <b><%= result[0].paragraph %></b>
+                    </p>
+                    <p>
+                        <b><%= result[0].sharewhole %></b>
+                    </p>
+                    <p>
+                        <b><%= result[0].shortstory %></b>
+                    </p>
+                    <img src="/images/<%= result[0].image1 %>" height="300px" width="auto">
+                    <p><%= result[0].sharewhole1 %></p>
+                    <img src="/images/<%= result[0].image2 %>" height="300px" width="auto">
+                    <p><%= result[0].sharewhole2 %></p>
+                    <img src="/images/<%= result[0].image3 %>" height="300px" width="auto">
+                    <p><%= result[0].sharewhole3 %></p>
+                    <img src="/images/<%= result[0].image4 %>" height="300px" width="auto">
+                    <p><%= result[0].sharewhole4 %></p>
+                    <img src="/images/<%= result[0].image5 %>" height="300px" width="auto">
+                    <p><%= result[0].sharewhole5 %></p>
+                </div>
+            </div>
+                    
+            
+
+                    
+            <!-- Footer section -->
+           
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
+            <!-- script from code pen for testing -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.jsd"></script>
+
+            <!-- Greensock GSAP -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+            <!-- hamburger icon -->
+            <script>
+                function openNav() {
+                    document.getElementById("myNav").style.width = "100%";
+                    document.getElementById(".open").style.width = "0%";
+                }
+
+                function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                }
+            </script>
+            <script>
+                $(document).ready(function () {
+                    $(".closebtn").hide();
+                    $(".main-nav1-item").hide();
+                    $(".header-top-item").hide();
+                    $(".open").click(function () {
+                        $(".closebtn").show();
+                        $(".open").hide();
+                        $(".carousel-people").hide();
+                        $(".carousel-indicators").hide();
+                        $(".main-nav1-item").show();
+                        $(".svglogo").css("fill", "white");
+                        $(".header-top-item").show();
+
+                    });
+                });
+
+                $(document).ready(function () {
+                    $(".closebtn").hide();
+                    $(".closebtn").click(function () {
+                        $(".open").show();
+                        $(".closebtn").hide();
+                        $(".carousel-people").show();
+                        $(".carousel-indicators").show();
+                        $(".main-nav1-item").hide();
+                        $(".header-top-item").hide();
+
+                    });
+                });
+            </script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(window).scroll(function () {
+                        var scroll = $(window).scrollTop();
+                        if (scroll > 500) {
+                            $(".svglogo").css("fill", "black");
+                        }
+
+                        else {
+                            $(".svglogo").css("fill", "white");
+                        }
+                    })
+                });
+            </script>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(window).scroll(function () {
+                        var scroll = $(window).scrollTop();
+                        if (scroll > 100) {
+                            $(".open").css("fill", "black");
+                        }
+
+                        else {
+                            $(".open").css("fill", "white");
+                        }
+                    })
+                });
+
+
+
+// $('.submit').click(function(){
+//     const id = $(this).attr('id');
+//     alert('a')
+//     alert(id)
+// })
+
+            </script>
+
+
+<script>
+    $('#bokmak').click(function () {
+        const bookmarkid = $(this).attr('bookmark')
+        $.post(`/Itineraries/bookmark`, { bookmarkid }, data => {
+            alert('All Ready Bookmarked')
+        })
+    })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+
+        .text {
+            top: 100px;
+position: relative;
+text-align: center;
+float: left;
+left: 100px;
+background-color: #F5F5F5;
+height: 100px;
+width: 80%;
+box-shadow: 5px 10px #888888;
+border: 2px solid transparent;
+border-radius: 5px;
+    }
+
+    .enter {
+top: 300px;
+position: relative;
+float: left;
+left: 200px;
+background-color: #F5F5F5;
+height: 4273px;
+width: 60%;
+box-shadow: 5px 10px #888888;
+border: 2px solid transparent;
+border-radius: 5px;
+    }
+
+    .enter .image {
+        margin-top: 32px;
+        margin-left: 12px;
+        float: left;
+    }
+
+    .enter .intro {
+           float: right;
+        text-align: left;
+        margin-top: 32px;
+    }
+
+    .enter hr {
+        margin: 32px 20px 48px 10px;
+        background-color: black;
+    }
+
+    .subhead {
+        color: #ef3a3a;
+    }
+
+    .psmall {
+        font-size: 14px;
+    }
+
+    .enter select {
+        background-color: #F5F5F5;
+        border: none;
+        font-size: 24px;
+    }
+
+    .enter b {
+        font-size: 24px;
+    }
+
+    .enter input {
+        height: 40px;
+        width: 550px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width: 93%;
+    }
+
+    .enter textarea {
+        border: 2px solid transparent;
+        border-radius: 10px;
+        margin: 56px 20px 48px 20px;
+        width: 93%;
+    }
+
+    .enter button {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        height: 50px;
+        width: 150px;
+            margin-left: 33%;
+    }
+
+
+    .bannerimage {
+        margin-left: 40% !important;
+        width: auto !important;
+    }
+
+
+    .tourseclect {
+        color: black !important;
+    }
+   
+
+    .back {
+        background-color: #484848;
+        position: relative;
+        height: 4010px;
+        width: 100%;
+        z-index: -1;
+        top: 1000px;
+    }
+    .input--file {
+position: relative;
+color: red;
+}
+
+.input--file input[type="file"] {
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+}

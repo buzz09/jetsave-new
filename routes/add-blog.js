@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
        
         pool.query(query, (err, result) => {
             if (err) throw err;
-            else res.render(`edittravelogue`, { result: result });
+            else res.render(`add-blog`, { result: result });
             // else res.json(result)
             console.log(result)
         })
@@ -23,17 +23,6 @@ router.get("/", (req, res) => {
     }
 });
 
-// router.post("/insert", upload.single("blogimage"), (req,res) => {
-//     let body = req.body;
-    
-//     body["blogimage"] = req.file.filename;
-//     body['userid'] = req.session.id;
-//     console.log(req.body);
-//     pool.query(`insert into editblog set ?`,body,(err,result)=>{
-//         if (err) throw err;
-//         else res.redirect("/edittravelogue");
-//     });
-// });
 
 
 
@@ -49,20 +38,11 @@ router.post("/insert", upload.fields([{ name: 'blogimage', maxCount: 1 }, { name
     
     pool.query(`insert into editblog set ?`, body, (err, result) => {
         if (err) throw err;
-        else res.redirect("/edittravelogue");
+        else res.redirect("/add-blog");
     });
 });
 
 
-
-// router.post("/insert", upload.single("blogimage"), (req, res) => {
-  //  let body = req.body;
-   // body["blogimage"] = req.file.filename;
-   // pool.query(`insert into ${table} set ?`, body, (err, result) => {
-    //    if (err) throw err;
-     //   else res.redirect("/editblog");
-   // });
-// });
 
 
 router.get("/all", (req, res) => {
@@ -73,11 +53,6 @@ router.get("/all", (req, res) => {
     });
 });
 
-// router.get("/allblog", (req, res) =>
 
-//     pool.query(`SELECT * FROM editblog where userid = "${req.session.id}"`, (err, result) =>
-//         err ? console.log(err) : res.json(result)
-//     )
-// );
 
 module.exports = router;

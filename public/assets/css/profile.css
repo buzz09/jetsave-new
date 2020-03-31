@@ -102,6 +102,15 @@
   font-size: 24px;
   color: black;
 }
+  
+  .filterlineinner h3 a {
+        color: black;
+  }
+
+  .filterlineinner h3  {
+    color: black;
+}
+
 
 .borderright {
   border-right: black 2px solid;
@@ -231,3 +240,175 @@ profile-member page style
   padding: 2%;
   right: -97px;
 }
+
+/* Blogf Read css */
+
+.blog {
+  top: 444px;
+  position: relative;
+  float: left;
+  left: 10px;
+  background-color: #F5F5F5;
+  height: auto;
+  width: 600px;
+  box-shadow: 5px 10px #888888;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.blog p {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.blog h2 {
+  margin-top: 48px;
+}
+
+.blog img {
+  margin: -2px;
+  width: 101%;
+  margin-top: -1%;        
+}
+
+.relatedt {
+  text-align: center;
+  position: relative;
+  top: 3388px;
+
+}
+
+.relatedt::after {
+  content: "";
+  display: inline;
+  height: 4px;
+  width: 35%;
+  background-color: black;
+  position: absolute;
+  left: 800px;
+  top: 20px;
+}
+
+.relatedt::before {
+  content: "";
+  display: inline;
+  height: 4px;
+  width: 35%;
+  background-color: black;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.thumbnailt {
+  position: absolute;
+  top: 600px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+.thumbnailt img {
+  border: 2px solid trasparent;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.captiont h3,
+h5 {
+  text-align: center;
+}
+
+.captiont h5 {
+  color: red;
+}
+
+.captiont h6 {
+  text-align: left;
+}
+
+.captiont {
+  margin: 15px;
+  text-align: center;
+}
+
+.related {
+  float: left;
+  position: relative;
+  top: 1200px;
+  left: 20px;
+}
+
+.related::after {
+  content: "";
+  display: inline;
+  height: 4px;
+  width: 170%;
+  background-color: black;
+  position: absolute;
+  left: 400px;
+  top: 20px;
+}
+
+.thumbnail {
+  position: absolute;
+  top: 1200px;
+  margin-top: 20px;
+}
+
+.thumbnail img {
+  border: 2px solid trasparent;
+  border-radius: 10px;
+}
+
+.relatedb {
+  text-align: center;
+  position: relative;
+  top: 1600px;
+
+}
+
+.relatedb::after {
+  content: "";
+  display: inline;
+  height: 4px;
+  width: 35%;
+  background-color: black;
+  position: absolute;
+  left: 700px;
+  top: 20px;
+}
+
+.relatedb::before {
+  content: "";
+  display: inline;
+  height: 4px;
+  width: 35%;
+  background-color: black;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.thumbnail1 {
+  position: absolute;
+  top: 1600px;
+  margin-top: 20px;
+}
+
+.thumbnail1 img {
+  border: 2px solid trasparent;
+  border-radius: 10px;
+}
+
+/* test code*/
+.subhead {
+  color: #ef3a3a;
+}
+
+.psmall {
+  font-size: 14px;
+}
+

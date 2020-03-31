@@ -19,7 +19,7 @@ var signup = require("./routes/signup");
 var blogarea = require("./routes/blogarea");
 var addtype = require("./routes/addtype");
 var travelogue_guest = require("./routes/travelogue-guest");
-var edittravelogue = require("./routes/edittravelogue");
+var add_blog = require("./routes/add-blog");
 var bookmark = require("./routes/bookmark");
 var contactus = require("./routes/contactus");
 var editform = require("./routes/editform");
@@ -30,6 +30,7 @@ var blog = require("./routes/blog");
 var tours = require("./routes/tours");
 var itineary = require('./routes/itineary');
 var blogs = require('./routes/blogs');
+var my_blogs = require('./routes/my-blogs');
 
 var app = express();
 
@@ -65,7 +66,7 @@ app.use("/signup", signup);
 app.use("/blogarea", blogarea);
 app.use("/addtype", addtype);
 app.use("/travelogue-guest", travelogue_guest);
-app.use("/edittravelogue", edittravelogue);
+app.use("/add-blog", add_blog);
 app.use("/bookmark", bookmark);
 app.use("/contactus", contactus);
 app.use("/editform", editform);
@@ -76,6 +77,7 @@ app.use("/blog", blog);
 app.use("/tours", tours);
 app.use("/itineary", itineary);
 app.use("/blogs", blogs);
+app.use("/my-blogs", my_blogs);
 
 
 // Access Control
